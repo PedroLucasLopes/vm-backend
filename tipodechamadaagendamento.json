@@ -1,0 +1,32 @@
+{
+  "ip": "189.113.9.6",
+  "database": "bi_pesquisa",
+  "frequency": "once",
+  "hour": 23,
+  "minute": 28
+}
+{
+  "ip": "189.113.9.6",
+  "database": "bi_pesquisa",
+  "frequency": "monthly",
+  "hour": 8,
+  "minute": 0,
+  "day_of_month": 19
+}
+
+{
+  "ip": "189.113.9.6",
+  "database": "bi_pesquisa",
+  "frequency": "daily",
+  "hour": 7,
+  "minute": 0
+}
+
+{
+  "ip": "189.113.9.6",
+  "database": "bi_pesquisa",
+  "frequency": "weekly",
+  "hour": 7,
+  "minute": 0,
+  "day_of_week": "mon"
+}

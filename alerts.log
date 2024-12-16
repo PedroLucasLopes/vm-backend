@@ -1,0 +1,104 @@
+2024-11-19 17:06:18,933 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:06:22,408 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:06:24,214 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:06:24.214382"}
+2024-11-19 17:06:27,493 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:06:30,218 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:06:34,486 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:06:36,648 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:06:36.647755"}
+2024-11-19 17:06:40,600 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:07:18,884 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:07:21,290 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:07:23,078 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:07:23.077804"}
+2024-11-19 17:07:26,455 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:07:28,783 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:07:31,496 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:07:33,271 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:07:33.271044"}
+2024-11-19 17:07:36,561 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:07:48,527 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:07:52,301 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:07:54,516 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:07:54.516471"}
+2024-11-19 17:07:58,431 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:08:18,910 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:08:21,332 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:08:23,057 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:08:23.057491"}
+2024-11-19 17:08:26,267 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:08:29,794 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:08:32,260 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:08:34,016 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:08:34.015749"}
+2024-11-19 17:08:37,221 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:09:19,210 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:09:25,039 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:09:27,171 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:09:27.171393"}
+2024-11-19 17:09:31,111 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:09:54,966 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:09:57,228 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:09:58,971 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:09:58.971063"}
+2024-11-19 17:10:02,244 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:04,607 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:08,151 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:09,915 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:09.914921"}
+2024-11-19 17:10:13,231 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:15,547 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:19,091 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:20,832 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:20.832225"}
+2024-11-19 17:10:24,046 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:26,787 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:30,511 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:32,570 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:32.570105"}
+2024-11-19 17:10:35,537 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:36,546 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:37,879 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:38,819 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:38,825 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:38,873 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:39,645 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:39.645039"}
+2024-11-19 17:10:41,597 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:41,600 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:41,716 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:42,781 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:43,368 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:43.368801"}
+2024-11-19 17:10:43,369 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:43.369245"}
+2024-11-19 17:10:43,458 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:43.458711"}
+2024-11-19 17:10:45,802 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:46,605 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:46,623 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:46,624 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:47,990 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:48,892 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:49,729 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:49.728942"}
+2024-11-19 17:10:51,071 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:52,796 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:52.796815"}
+2024-11-19 17:10:52,880 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:55,828 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:55,882 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:10:57,799 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:58,172 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:10:59,573 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:10:59.573723"}
+2024-11-19 17:11:00,002 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:01,829 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:01.828877"}
+2024-11-19 17:11:02,823 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:04,986 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:05,889 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:07,428 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:08,156 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:09,564 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:09,912 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:09.912647"}
+2024-11-19 17:11:11,297 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:11.297478"}
+2024-11-19 17:11:13,180 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:14,519 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:15,788 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:16,806 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:18,873 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:19,280 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:20,631 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:20.630940"}
+2024-11-19 17:11:21,034 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:21.034201"}
+2024-11-19 17:11:23,866 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:24,261 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:25,820 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:26,550 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:27,795 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:28,622 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '1.3T'. Valor: 1.3T
+2024-11-19 17:11:29,544 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:29.543972"}
+2024-11-19 17:11:30,368 - INFO - Alerta gerado: {"platform": "disk_space", "message": "VM Dev com pouco espa\u00e7o em disco (60G).", "status": "success", "timestamp": "2024-11-19T17:11:30.367978"}
+2024-11-19 17:11:32,670 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T
+2024-11-19 17:11:33,519 - WARNING - Falha ao converter espaço em disco para inteiro: invalid literal for int() with base 10: '5.6T'. Valor: 5.6T

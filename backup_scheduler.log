@@ -1,0 +1,1953 @@
+2024-11-21 14:18:01,206 - INFO - Scheduler started
+2024-11-21 14:18:01,209 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:18:10,518 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:18:13,525 - INFO - Authentication (password) failed.
+2024-11-21 14:18:13,526 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:18:13,527 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:18:14,415 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:18:17,389 - INFO - Authentication (password) failed.
+2024-11-21 14:18:17,389 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:18:17,390 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:18:24,424 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:18:27,427 - INFO - Authentication (password) failed.
+2024-11-21 14:18:27,428 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:18:27,429 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:18:34,452 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:18:37,429 - INFO - Authentication (password) failed.
+2024-11-21 14:18:37,429 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:18:37,429 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:18:39,420 - INFO - Scheduler started
+2024-11-21 14:18:39,420 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:18:41,532 - INFO - Scheduler started
+2024-11-21 14:18:41,534 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:18:44,430 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:18:44,911 - INFO - Authentication (password) successful!
+2024-11-21 14:18:46,765 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:18:54,501 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:18:54,972 - INFO - Authentication (password) successful!
+2024-11-21 14:18:56,346 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:19:04,421 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:19:04,875 - INFO - Authentication (password) successful!
+2024-11-21 14:19:06,233 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:19:14,556 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:19:15,005 - INFO - Authentication (password) successful!
+2024-11-21 14:19:16,291 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:19:24,913 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:19:25,358 - INFO - Authentication (password) successful!
+2024-11-21 14:19:26,662 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:19:34,903 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:19:35,348 - INFO - Authentication (password) successful!
+2024-11-21 14:19:36,642 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:19:44,886 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:19:45,324 - INFO - Authentication (password) successful!
+2024-11-21 14:19:46,633 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:19:55,089 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:19:55,527 - INFO - Authentication (password) successful!
+2024-11-21 14:19:57,197 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:20:04,913 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:20:05,349 - INFO - Authentication (password) successful!
+2024-11-21 14:20:06,705 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:20:14,882 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:20:15,332 - INFO - Authentication (password) successful!
+2024-11-21 14:20:16,657 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:20:41,921 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:20:42,366 - INFO - Authentication (password) successful!
+2024-11-21 14:20:43,813 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:20:55,101 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:20:55,557 - INFO - Authentication (password) successful!
+2024-11-21 14:20:56,855 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:21:04,991 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:21:05,430 - INFO - Authentication (password) successful!
+2024-11-21 14:21:07,458 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:21:14,901 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:21:15,344 - INFO - Authentication (password) successful!
+2024-11-21 14:21:16,652 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:21:24,899 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:21:25,349 - INFO - Authentication (password) successful!
+2024-11-21 14:21:26,629 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:21:34,901 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:21:35,339 - INFO - Authentication (password) successful!
+2024-11-21 14:21:36,606 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:21:44,888 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:21:45,452 - INFO - Authentication (password) successful!
+2024-11-21 14:21:46,755 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:21:54,959 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:21:55,375 - INFO - Authentication (password) successful!
+2024-11-21 14:21:56,676 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:22:29,486 - INFO - Scheduler started
+2024-11-21 14:22:29,487 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:22:41,912 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:22:42,385 - INFO - Authentication (password) successful!
+2024-11-21 14:22:44,002 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:22:44,912 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:22:45,350 - INFO - Authentication (password) successful!
+2024-11-21 14:22:46,625 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:22:54,527 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:22:54,980 - INFO - Authentication (password) successful!
+2024-11-21 14:22:56,306 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:23:04,419 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:04,596 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:04,852 - INFO - Authentication (password) successful!
+2024-11-21 14:23:04,994 - INFO - Authentication (password) successful!
+2024-11-21 14:23:06,201 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:23:14,447 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:14,887 - INFO - Authentication (password) successful!
+2024-11-21 14:23:16,192 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:23:21,573 - INFO - Backup concluído para o banco de dados na VM 189.113.9.6, banco de dados bi_pesquisa. Tamanho do dump: 91M
+2024-11-21 14:23:21,574 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:23:24,409 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:24,860 - INFO - Authentication (password) successful!
+2024-11-21 14:23:26,137 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:23:34,452 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:34,890 - INFO - Authentication (password) successful!
+2024-11-21 14:23:36,178 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:23:44,472 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:44,889 - INFO - Authentication (password) successful!
+2024-11-21 14:23:46,604 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:23:55,124 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:23:55,570 - INFO - Authentication (password) successful!
+2024-11-21 14:23:56,842 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:24:04,409 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:24:04,853 - INFO - Authentication (password) successful!
+2024-11-21 14:24:06,183 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:24:14,470 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:24:15,009 - INFO - Authentication (password) successful!
+2024-11-21 14:24:16,282 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:24:24,898 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:24:25,294 - INFO - Authentication (password) successful!
+2024-11-21 14:24:26,566 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:24:34,873 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:24:35,268 - INFO - Authentication (password) successful!
+2024-11-21 14:24:36,518 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:24:44,893 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:24:45,338 - INFO - Authentication (password) successful!
+2024-11-21 14:24:47,068 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:24:54,881 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:24:55,441 - INFO - Authentication (password) successful!
+2024-11-21 14:24:56,779 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:25:04,916 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:25:05,423 - INFO - Authentication (password) successful!
+2024-11-21 14:25:06,784 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:25:14,962 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:25:15,393 - INFO - Authentication (password) successful!
+2024-11-21 14:25:16,697 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:25:32,743 - INFO - Scheduler started
+2024-11-21 14:25:32,745 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:25:35,365 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:25:35,809 - INFO - Authentication (password) successful!
+2024-11-21 14:25:37,124 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:25:44,350 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:25:44,383 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:25:44,801 - INFO - Authentication (password) successful!
+2024-11-21 14:25:44,814 - INFO - Authentication (password) successful!
+2024-11-21 14:25:46,130 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:25:54,432 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:25:54,882 - INFO - Authentication (password) successful!
+2024-11-21 14:25:56,673 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:26:00,286 - INFO - Backup concluído para o banco de dados na VM 189.113.9.6, banco de dados bi_pesquisa. Tamanho do dump: 91M
+2024-11-21 14:26:00,287 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:26:04,425 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:26:04,899 - INFO - Authentication (password) successful!
+2024-11-21 14:26:06,255 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:26:14,911 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:26:15,362 - INFO - Authentication (password) successful!
+2024-11-21 14:26:16,653 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:26:24,864 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:26:25,272 - INFO - Authentication (password) successful!
+2024-11-21 14:26:26,557 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:26:34,883 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:26:35,321 - INFO - Authentication (password) successful!
+2024-11-21 14:26:36,613 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:26:44,884 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:26:45,329 - INFO - Authentication (password) successful!
+2024-11-21 14:26:46,615 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:26:54,904 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:26:55,459 - INFO - Authentication (password) successful!
+2024-11-21 14:26:57,145 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:27:04,944 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:27:05,345 - INFO - Authentication (password) successful!
+2024-11-21 14:27:06,697 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:27:41,933 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:27:42,325 - INFO - Authentication (password) successful!
+2024-11-21 14:27:43,582 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:28:42,080 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:28:42,576 - INFO - Authentication (password) successful!
+2024-11-21 14:28:44,358 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:29:41,909 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:29:42,362 - INFO - Authentication (password) successful!
+2024-11-21 14:29:43,653 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:30:28,299 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:30:28,751 - INFO - Authentication (password) successful!
+2024-11-21 14:30:30,555 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:30:35,602 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:30:36,439 - INFO - Authentication (password) successful!
+2024-11-21 14:30:37,755 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:30:44,911 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:30:45,464 - INFO - Authentication (password) successful!
+2024-11-21 14:30:46,775 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:30:54,991 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:30:55,419 - INFO - Authentication (password) successful!
+2024-11-21 14:30:56,691 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:31:04,920 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:31:05,481 - INFO - Authentication (password) successful!
+2024-11-21 14:31:06,848 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:31:14,885 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:31:15,384 - INFO - Authentication (password) successful!
+2024-11-21 14:31:16,692 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:35:21,116 - INFO - Scheduler started
+2024-11-21 14:35:21,119 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:35:23,378 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:35:23,833 - INFO - Authentication (password) successful!
+2024-11-21 14:35:25,678 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:35:26,583 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:35:27,025 - INFO - Authentication (password) successful!
+2024-11-21 14:35:28,311 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:35:36,585 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:35:37,026 - INFO - Authentication (password) successful!
+2024-11-21 14:35:38,313 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:35:46,570 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:35:47,020 - INFO - Authentication (password) successful!
+2024-11-21 14:35:48,306 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:35:56,638 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:35:57,081 - INFO - Authentication (password) successful!
+2024-11-21 14:35:58,392 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:36:06,915 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:36:07,372 - INFO - Authentication (password) successful!
+2024-11-21 14:36:08,693 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:36:16,927 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:36:17,366 - INFO - Authentication (password) successful!
+2024-11-21 14:36:18,636 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:36:26,943 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:36:27,476 - INFO - Authentication (password) successful!
+2024-11-21 14:36:29,210 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:36:36,980 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:36:37,509 - INFO - Authentication (password) successful!
+2024-11-21 14:36:38,811 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:36:47,065 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:36:47,513 - INFO - Authentication (password) successful!
+2024-11-21 14:36:48,811 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:36:56,957 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:36:57,397 - INFO - Authentication (password) successful!
+2024-11-21 14:36:58,684 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:38:14,435 - INFO - Scheduler started
+2024-11-21 14:38:14,438 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:38:15,347 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:38:15,784 - INFO - Authentication (password) successful!
+2024-11-21 14:38:17,460 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:41:58,221 - INFO - Scheduler started
+2024-11-21 14:41:58,225 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:42:42,280 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:42:45,454 - INFO - Authentication (password) failed.
+2024-11-21 14:42:45,456 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:42:45,456 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:42:56,651 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:42:59,676 - INFO - Authentication (password) failed.
+2024-11-21 14:42:59,677 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:42:59,677 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:43:07,009 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:43:12,787 - INFO - Authentication (password) failed.
+2024-11-21 14:43:12,788 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:43:12,789 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:43:21,063 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:43:24,117 - INFO - Authentication (password) failed.
+2024-11-21 14:43:24,119 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:43:24,120 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:43:27,004 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:43:29,973 - INFO - Authentication (password) failed.
+2024-11-21 14:43:29,976 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:43:29,976 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:43:37,008 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:43:39,995 - INFO - Authentication (password) failed.
+2024-11-21 14:43:39,995 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:43:39,996 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:43:47,615 - INFO - Scheduler started
+2024-11-21 14:43:47,616 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:43:48,542 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:43:51,531 - INFO - Authentication (password) failed.
+2024-11-21 14:43:51,534 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:43:51,535 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:43:57,040 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:44:00,014 - INFO - Authentication (password) failed.
+2024-11-21 14:44:00,015 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:44:00,015 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:44:15,154 - INFO - Scheduler started
+2024-11-21 14:44:15,156 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:44:24,242 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:44:26,403 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:44:27,301 - INFO - Authentication (password) failed.
+2024-11-21 14:44:27,302 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:44:27,302 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:44:29,371 - INFO - Authentication (password) failed.
+2024-11-21 14:44:29,372 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:44:29,372 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:44:30,246 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:44:33,252 - INFO - Authentication (password) failed.
+2024-11-21 14:44:33,253 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:44:33,253 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:44:40,262 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:44:43,245 - INFO - Authentication (password) failed.
+2024-11-21 14:44:43,246 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:44:43,247 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:44:50,273 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:44:53,345 - INFO - Authentication (password) failed.
+2024-11-21 14:44:53,346 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:44:53,346 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:00,281 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:03,271 - INFO - Authentication (password) failed.
+2024-11-21 14:45:03,272 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:45:03,273 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:10,274 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:13,216 - INFO - Authentication (password) failed.
+2024-11-21 14:45:13,217 - ERROR - Erro ao monitorar VM 189.113.9.3: Authentication failed.
+2024-11-21 14:45:13,217 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:14,506 - INFO - Scheduler started
+2024-11-21 14:45:14,507 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:45:20,315 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:20,777 - INFO - Authentication (password) successful!
+2024-11-21 14:45:22,199 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:22,545 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:22,643 - INFO - Authentication (password) successful!
+2024-11-21 14:45:23,940 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:24,813 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:25,253 - INFO - Authentication (password) successful!
+2024-11-21 14:45:26,523 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:34,852 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:35,292 - INFO - Authentication (password) successful!
+2024-11-21 14:45:36,075 - ERROR - Erro ao obter VM de armazenamento para o cliente 189.113.9.6: invalid input syntax for type integer: "189.113.9.6"
+LINE 4:             WHERE id = '189.113.9.6'
+                               ^
+
+2024-11-21 14:45:36,076 - ERROR - VM de armazenamento para o cliente 189.113.9.6 não encontrada.
+2024-11-21 14:45:36,076 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:45:36,593 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:44,827 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:45,271 - INFO - Authentication (password) successful!
+2024-11-21 14:45:46,577 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:45:54,848 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:45:55,263 - INFO - Authentication (password) successful!
+2024-11-21 14:45:56,530 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:46:04,869 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:46:05,302 - INFO - Authentication (password) successful!
+2024-11-21 14:46:06,666 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:46:14,824 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:46:15,279 - INFO - Authentication (password) successful!
+2024-11-21 14:46:16,570 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:46:24,834 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:46:25,275 - INFO - Authentication (password) successful!
+2024-11-21 14:46:27,057 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:46:34,950 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:46:35,406 - INFO - Authentication (password) successful!
+2024-11-21 14:46:36,698 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:46:44,819 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:46:45,267 - INFO - Authentication (password) successful!
+2024-11-21 14:46:46,552 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:46:54,940 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:46:55,381 - INFO - Authentication (password) successful!
+2024-11-21 14:46:56,670 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:47:04,940 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:47:05,363 - INFO - Authentication (password) successful!
+2024-11-21 14:47:06,677 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:47:14,920 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:47:15,376 - INFO - Authentication (password) successful!
+2024-11-21 14:47:16,656 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:47:24,912 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:47:25,363 - INFO - Authentication (password) successful!
+2024-11-21 14:47:26,679 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:47:34,946 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:47:35,356 - INFO - Authentication (password) successful!
+2024-11-21 14:47:37,066 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:47:44,928 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:47:45,368 - INFO - Authentication (password) successful!
+2024-11-21 14:47:46,642 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:48:26,921 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:48:27,567 - INFO - Authentication (password) successful!
+2024-11-21 14:48:28,859 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:48:34,914 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:48:35,410 - INFO - Authentication (password) successful!
+2024-11-21 14:48:36,716 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:48:44,922 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:48:45,368 - INFO - Authentication (password) successful!
+2024-11-21 14:48:47,151 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:48:55,033 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:48:55,490 - INFO - Authentication (password) successful!
+2024-11-21 14:48:56,808 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:49:04,891 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:49:05,343 - INFO - Authentication (password) successful!
+2024-11-21 14:49:06,680 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:49:14,951 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:49:15,379 - INFO - Authentication (password) successful!
+2024-11-21 14:49:16,684 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:49:24,972 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:49:25,418 - INFO - Authentication (password) successful!
+2024-11-21 14:49:26,733 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:49:42,118 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:49:42,605 - INFO - Authentication (password) successful!
+2024-11-21 14:49:43,891 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:49:50,917 - INFO - Scheduler started
+2024-11-21 14:49:50,917 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:50:11,244 - INFO - Scheduler started
+2024-11-21 14:50:11,246 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:50:13,884 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:14,288 - INFO - Authentication (password) successful!
+2024-11-21 14:50:15,363 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:15,391 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:15,815 - INFO - Authentication (password) successful!
+2024-11-21 14:50:15,820 - INFO - Authentication (password) successful!
+2024-11-21 14:50:16,135 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:17,104 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:17,105 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:17,984 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:18,427 - INFO - Authentication (password) successful!
+2024-11-21 14:50:19,740 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:28,914 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:29,354 - INFO - Authentication (password) successful!
+2024-11-21 14:50:30,659 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:38,020 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:38,471 - INFO - Authentication (password) successful!
+2024-11-21 14:50:39,759 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:46,964 - ERROR - Erro ao obter VM de armazenamento para o cliente 5: column "vm_ip" does not exist
+LINE 2:             SELECT vm_ip, ssh_user, ssh_password, pg_user, p...
+                           ^
+
+2024-11-21 14:50:46,965 - ERROR - VM de armazenamento para o cliente 5 não encontrada.
+2024-11-21 14:50:46,966 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:50:48,001 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:48,445 - INFO - Authentication (password) successful!
+2024-11-21 14:50:49,751 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:50:57,995 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:50:58,436 - INFO - Authentication (password) successful!
+2024-11-21 14:50:59,739 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:51:08,001 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:51:08,446 - INFO - Authentication (password) successful!
+2024-11-21 14:51:09,743 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:51:19,012 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:51:19,400 - INFO - Authentication (password) successful!
+2024-11-21 14:51:21,271 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:51:28,914 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:51:29,312 - INFO - Authentication (password) successful!
+2024-11-21 14:51:30,598 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:51:37,109 - INFO - Scheduler started
+2024-11-21 14:51:37,110 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:51:38,906 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:51:39,351 - INFO - Authentication (password) successful!
+2024-11-21 14:51:40,631 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:51:48,956 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:51:49,405 - INFO - Authentication (password) successful!
+2024-11-21 14:51:50,674 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:51:53,412 - ERROR - Erro ao obter VM de armazenamento para o cliente 5: column "client_id" does not exist
+LINE 4:             WHERE client_id = 5
+                          ^
+
+2024-11-21 14:51:53,413 - ERROR - VM de armazenamento para o cliente 5 não encontrada.
+2024-11-21 14:51:53,413 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:51:57,976 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:51:58,425 - INFO - Authentication (password) successful!
+2024-11-21 14:51:59,716 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:52:08,080 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:08,523 - INFO - Authentication (password) successful!
+2024-11-21 14:52:09,824 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:52:18,007 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:18,453 - INFO - Authentication (password) successful!
+2024-11-21 14:52:19,748 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:52:27,989 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:28,646 - INFO - Authentication (password) successful!
+2024-11-21 14:52:30,468 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:52:38,173 - INFO - Scheduler started
+2024-11-21 14:52:38,176 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:52:39,114 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:39,552 - INFO - Authentication (password) successful!
+2024-11-21 14:52:40,859 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:52:41,928 - INFO - Scheduler started
+2024-11-21 14:52:41,934 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:52:48,069 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:48,477 - INFO - Authentication (password) successful!
+2024-11-21 14:52:49,783 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:52:51,829 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:54,790 - INFO - Authentication (password) failed.
+2024-11-21 14:52:54,791 - ERROR - Erro ao realizar backup para o banco de dados bi_pesquisa na VM 189.113.9.3: Authentication failed.
+Traceback (most recent call last):
+  File "/Users/luiztenfen/Documents/desenvolvimento/monitor_vm/scheduler.py", line 113, in perform_backup
+    ssh.connect(storage_ip, username=ssh_user, password=ssh_password)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2024-11-21 14:52:54,803 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:52:58,001 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:52:58,441 - INFO - Authentication (password) successful!
+2024-11-21 14:52:59,724 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:53:08,021 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:53:08,465 - INFO - Authentication (password) successful!
+2024-11-21 14:53:09,737 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:53:18,000 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:53:18,447 - INFO - Authentication (password) successful!
+2024-11-21 14:53:19,732 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:53:28,001 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:53:28,438 - INFO - Authentication (password) successful!
+2024-11-21 14:53:29,738 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:53:38,014 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:53:38,455 - INFO - Authentication (password) successful!
+2024-11-21 14:53:40,260 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:53:47,998 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:53:48,433 - INFO - Authentication (password) successful!
+2024-11-21 14:53:49,708 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:53:58,001 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:53:58,432 - INFO - Authentication (password) successful!
+2024-11-21 14:53:59,742 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:54:08,045 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:54:08,503 - INFO - Authentication (password) successful!
+2024-11-21 14:54:09,826 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:54:17,997 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:54:18,393 - INFO - Authentication (password) successful!
+2024-11-21 14:54:19,683 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:54:28,001 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:54:28,433 - INFO - Authentication (password) successful!
+2024-11-21 14:54:29,717 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:54:38,011 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:54:38,424 - INFO - Authentication (password) successful!
+2024-11-21 14:54:39,692 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:54:48,019 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:54:48,465 - INFO - Authentication (password) successful!
+2024-11-21 14:54:50,157 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:54:58,008 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:54:58,456 - INFO - Authentication (password) successful!
+2024-11-21 14:54:59,725 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:55:08,007 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:08,449 - INFO - Authentication (password) successful!
+2024-11-21 14:55:09,754 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:55:14,820 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:17,799 - INFO - Authentication (password) failed.
+2024-11-21 14:55:17,800 - ERROR - Erro ao realizar backup para o banco de dados bi_pesquisa na VM 189.113.9.3: Authentication failed.
+Traceback (most recent call last):
+  File "/Users/luiztenfen/Documents/desenvolvimento/monitor_vm/scheduler.py", line 113, in perform_backup
+    ssh.connect(storage_ip, username=ssh_user, password=ssh_password)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2024-11-21 14:55:17,804 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:55:18,035 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:18,472 - INFO - Authentication (password) successful!
+2024-11-21 14:55:19,746 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:55:28,016 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:28,422 - INFO - Authentication (password) successful!
+2024-11-21 14:55:29,688 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:55:38,902 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:39,343 - INFO - Authentication (password) successful!
+2024-11-21 14:55:40,656 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:55:49,157 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:49,733 - INFO - Authentication (password) successful!
+2024-11-21 14:55:51,667 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:55:59,089 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:55:59,535 - INFO - Authentication (password) successful!
+2024-11-21 14:56:00,810 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:56:09,161 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:56:09,595 - INFO - Authentication (password) successful!
+2024-11-21 14:56:10,917 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:56:18,960 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:56:19,385 - INFO - Authentication (password) successful!
+2024-11-21 14:56:20,703 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:56:28,933 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:56:29,377 - INFO - Authentication (password) successful!
+2024-11-21 14:56:30,670 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:56:42,108 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:56:42,605 - INFO - Authentication (password) successful!
+2024-11-21 14:56:43,916 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:57:07,792 - INFO - Scheduler started
+2024-11-21 14:57:07,797 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:57:41,943 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:57:42,401 - INFO - Authentication (password) successful!
+2024-11-21 14:57:44,145 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:57:46,527 - INFO - Scheduler started
+2024-11-21 14:57:46,528 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:57:49,147 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:57:49,624 - INFO - Authentication (password) successful!
+2024-11-21 14:57:50,898 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:57:57,666 - ERROR - Erro ao obter VM de armazenamento para o cliente 5: column "vm_ip" does not exist
+LINE 2:             SELECT vm_ip, ssh_user, ssh_password, pg_user, p...
+                           ^
+
+2024-11-21 14:57:57,666 - ERROR - VM de armazenamento para o cliente 5 não encontrada.
+2024-11-21 14:57:57,666 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:57:57,980 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:57:58,425 - INFO - Authentication (password) successful!
+2024-11-21 14:57:59,718 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:58:08,012 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:08,458 - INFO - Authentication (password) successful!
+2024-11-21 14:58:09,753 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:58:18,000 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:18,429 - INFO - Authentication (password) successful!
+2024-11-21 14:58:19,728 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:58:23,205 - INFO - Scheduler started
+2024-11-21 14:58:23,206 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 14:58:27,993 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:28,438 - INFO - Authentication (password) successful!
+2024-11-21 14:58:29,720 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:58:38,002 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:38,451 - INFO - Authentication (password) successful!
+2024-11-21 14:58:39,732 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:58:40,387 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:43,384 - INFO - Authentication (password) failed.
+2024-11-21 14:58:43,385 - ERROR - Erro ao realizar backup para o banco de dados bi_pesquisa na VM 189.113.9.3: Authentication failed.
+Traceback (most recent call last):
+  File "/Users/luiztenfen/Documents/desenvolvimento/monitor_vm/scheduler.py", line 113, in perform_backup
+    ssh.connect(storage_ip, username=ssh_user, password=ssh_password)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2024-11-21 14:58:43,393 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 14:58:47,986 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:48,447 - INFO - Authentication (password) successful!
+2024-11-21 14:58:50,143 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:58:58,919 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:58:59,359 - INFO - Authentication (password) successful!
+2024-11-21 14:59:00,673 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:59:08,942 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:59:09,402 - INFO - Authentication (password) successful!
+2024-11-21 14:59:10,680 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:59:19,071 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:59:19,528 - INFO - Authentication (password) successful!
+2024-11-21 14:59:20,802 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:59:28,976 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:59:29,513 - INFO - Authentication (password) successful!
+2024-11-21 14:59:30,808 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:59:39,052 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:59:39,517 - INFO - Authentication (password) successful!
+2024-11-21 14:59:40,818 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 14:59:49,056 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 14:59:49,482 - INFO - Authentication (password) successful!
+2024-11-21 14:59:51,305 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:00:09,444 - INFO - Scheduler started
+2024-11-21 15:00:09,446 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:00:42,048 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:00:42,492 - INFO - Authentication (password) successful!
+2024-11-21 15:00:43,756 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:00:48,756 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:00:49,202 - INFO - Authentication (password) successful!
+2024-11-21 15:00:50,485 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:00:56,193 - ERROR - Erro ao obter VM de armazenamento para o cliente 5: column "vm_ip" does not exist
+LINE 2:             SELECT vm_ip, ssh_user, ssh_password, pg_user, p...
+                           ^
+
+2024-11-21 15:00:56,195 - ERROR - VM de armazenamento para o cliente 5 não encontrada.
+2024-11-21 15:00:56,195 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:00:58,018 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:00:58,468 - INFO - Authentication (password) successful!
+2024-11-21 15:01:00,217 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:01:07,991 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:08,473 - INFO - Authentication (password) successful!
+2024-11-21 15:01:09,781 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:01:15,214 - INFO - Scheduler started
+2024-11-21 15:01:15,215 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:01:18,030 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:18,475 - INFO - Authentication (password) successful!
+2024-11-21 15:01:19,780 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:01:21,146 - INFO - Tentando conectar à VM de armazenamento 189.113.9.3 com usuário SSH 'root'.
+2024-11-21 15:01:21,219 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:24,200 - INFO - Authentication (password) failed.
+2024-11-21 15:01:24,200 - ERROR - Erro ao realizar backup para o banco de dados bi_pesquisa na VM 189.113.9.3: Authentication failed.
+2024-11-21 15:01:24,200 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:01:27,996 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:28,433 - INFO - Authentication (password) successful!
+2024-11-21 15:01:29,713 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:01:38,008 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:38,438 - INFO - Authentication (password) successful!
+2024-11-21 15:01:39,728 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:01:48,016 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:48,450 - INFO - Authentication (password) successful!
+2024-11-21 15:01:49,722 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:01:58,932 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:01:59,379 - INFO - Authentication (password) successful!
+2024-11-21 15:02:01,186 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:02:08,910 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:09,363 - INFO - Authentication (password) successful!
+2024-11-21 15:02:10,635 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:02:18,916 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:19,338 - INFO - Authentication (password) successful!
+2024-11-21 15:02:20,624 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:02:28,924 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:29,371 - INFO - Authentication (password) successful!
+2024-11-21 15:02:30,659 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:02:36,082 - INFO - Scheduler started
+2024-11-21 15:02:36,082 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:02:38,938 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:39,376 - INFO - Authentication (password) successful!
+2024-11-21 15:02:40,662 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:02:48,009 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:48,550 - INFO - Authentication (password) successful!
+2024-11-21 15:02:49,844 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:02:55,458 - INFO - Tentando conectar à VM de armazenamento 189.113.9.3 com usuário SSH 'root' senha 'Ty37oPK72z@' .
+2024-11-21 15:02:55,541 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:58,002 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:02:58,445 - INFO - Authentication (password) successful!
+2024-11-21 15:02:58,518 - INFO - Authentication (password) failed.
+2024-11-21 15:02:58,518 - ERROR - Erro ao realizar backup para o banco de dados bi_pesquisa na VM 189.113.9.3: Authentication failed.
+2024-11-21 15:02:58,518 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:02:59,754 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:03:08,009 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:03:08,498 - INFO - Authentication (password) successful!
+2024-11-21 15:03:10,283 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:03:18,004 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:03:18,457 - INFO - Authentication (password) successful!
+2024-11-21 15:03:19,727 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:03:28,019 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:03:28,476 - INFO - Authentication (password) successful!
+2024-11-21 15:03:29,747 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:03:37,989 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:03:38,431 - INFO - Authentication (password) successful!
+2024-11-21 15:03:39,713 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:03:48,927 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:03:49,400 - INFO - Authentication (password) successful!
+2024-11-21 15:03:50,660 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:03:58,912 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:03:59,453 - INFO - Authentication (password) successful!
+2024-11-21 15:04:00,734 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:04:08,923 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:04:09,369 - INFO - Authentication (password) successful!
+2024-11-21 15:04:11,064 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:04:18,919 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:04:19,358 - INFO - Authentication (password) successful!
+2024-11-21 15:04:20,620 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:04:28,920 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:04:29,367 - INFO - Authentication (password) successful!
+2024-11-21 15:04:30,663 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:04:38,926 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:04:39,372 - INFO - Authentication (password) successful!
+2024-11-21 15:04:40,643 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:05:40,080 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:05:40,526 - INFO - Authentication (password) successful!
+2024-11-21 15:05:42,178 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:06:41,667 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:06:42,431 - INFO - Authentication (password) successful!
+2024-11-21 15:06:44,139 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:06:48,993 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:06:49,462 - INFO - Authentication (password) successful!
+2024-11-21 15:06:50,763 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:06:59,271 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:06:59,863 - INFO - Authentication (password) successful!
+2024-11-21 15:07:01,163 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:07:08,921 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:07:09,428 - INFO - Authentication (password) successful!
+2024-11-21 15:07:10,700 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:07:18,957 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:07:19,386 - INFO - Authentication (password) successful!
+2024-11-21 15:07:20,667 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:07:28,903 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:07:29,340 - INFO - Authentication (password) successful!
+2024-11-21 15:07:30,634 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:07:38,961 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:07:39,464 - INFO - Authentication (password) successful!
+2024-11-21 15:07:40,746 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:08:39,944 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:08:40,377 - INFO - Authentication (password) successful!
+2024-11-21 15:08:42,085 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:04,094 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:04,559 - INFO - Authentication (password) successful!
+2024-11-21 15:09:05,926 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:09,038 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:09,581 - INFO - Authentication (password) successful!
+2024-11-21 15:09:10,873 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:18,950 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:19,389 - INFO - Authentication (password) successful!
+2024-11-21 15:09:20,679 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:29,094 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:29,696 - INFO - Authentication (password) successful!
+2024-11-21 15:09:30,977 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:38,960 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:39,407 - INFO - Authentication (password) successful!
+2024-11-21 15:09:40,669 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:48,986 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:49,423 - INFO - Authentication (password) successful!
+2024-11-21 15:09:51,094 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:09:58,906 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:09:59,356 - INFO - Authentication (password) successful!
+2024-11-21 15:10:00,638 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:10:41,934 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:10:42,382 - INFO - Authentication (password) successful!
+2024-11-21 15:10:43,646 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:10:47,687 - INFO - Scheduler started
+2024-11-21 15:10:47,688 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:11:11,522 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:11,985 - INFO - Authentication (password) successful!
+2024-11-21 15:11:13,647 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:11:17,990 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:18,396 - INFO - Authentication (password) successful!
+2024-11-21 15:11:18,599 - INFO - Tentando conectar à VM de armazenamento 189.113.9.3 com usuário SSH 'root'.
+2024-11-21 15:11:18,676 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:19,677 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:11:24,328 - INFO - Authentication (password) failed.
+2024-11-21 15:11:24,330 - ERROR - Erro ao realizar backup para o banco de dados 'bi_pesquisa' na VM 189.113.9.3: Authentication failed.
+2024-11-21 15:11:24,330 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:11:27,988 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:28,393 - INFO - Authentication (password) successful!
+2024-11-21 15:11:29,685 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:11:37,979 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:38,425 - INFO - Authentication (password) successful!
+2024-11-21 15:11:39,709 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:11:48,022 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:48,454 - INFO - Authentication (password) successful!
+2024-11-21 15:11:49,719 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:11:58,917 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:11:59,648 - INFO - Authentication (password) successful!
+2024-11-21 15:12:00,915 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:12:08,938 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:12:09,385 - INFO - Authentication (password) successful!
+2024-11-21 15:12:10,673 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:12:18,895 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:12:19,455 - INFO - Authentication (password) successful!
+2024-11-21 15:12:21,285 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:12:29,032 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:12:29,733 - INFO - Authentication (password) successful!
+2024-11-21 15:12:31,001 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:12:38,966 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:12:39,611 - INFO - Authentication (password) successful!
+2024-11-21 15:12:40,858 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:12:48,963 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:12:49,432 - INFO - Authentication (password) successful!
+2024-11-21 15:12:50,732 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:13:41,934 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:13:42,416 - INFO - Authentication (password) successful!
+2024-11-21 15:13:44,112 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:13:58,079 - INFO - Scheduler started
+2024-11-21 15:13:58,080 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:14:12,698 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:13,171 - INFO - Authentication (password) successful!
+2024-11-21 15:14:14,445 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:14:18,000 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:18,439 - INFO - Authentication (password) successful!
+2024-11-21 15:14:18,454 - INFO - Tentando conectar à VM de armazenamento 189.113.9.3 com usuário SSH 'root'.
+2024-11-21 15:14:18,529 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:19,695 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:14:21,583 - INFO - Authentication (password) failed.
+2024-11-21 15:14:21,585 - ERROR - Erro ao realizar backup para o banco de dados 'bi_pesquisa' na VM 189.113.9.3: Authentication failed.
+2024-11-21 15:14:21,585 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:14:27,970 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:28,407 - INFO - Authentication (password) successful!
+2024-11-21 15:14:29,678 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:14:37,989 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:38,439 - INFO - Authentication (password) successful!
+2024-11-21 15:14:39,717 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:14:48,015 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:48,465 - INFO - Authentication (password) successful!
+2024-11-21 15:14:50,134 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:14:57,996 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:14:58,435 - INFO - Authentication (password) successful!
+2024-11-21 15:14:59,720 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:15:08,003 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:15:08,445 - INFO - Authentication (password) successful!
+2024-11-21 15:15:09,763 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:15:17,981 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:15:18,427 - INFO - Authentication (password) successful!
+2024-11-21 15:15:19,697 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:15:28,013 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:15:28,463 - INFO - Authentication (password) successful!
+2024-11-21 15:15:29,723 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:15:38,006 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:15:38,443 - INFO - Authentication (password) successful!
+2024-11-21 15:15:39,711 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:15:47,998 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:15:48,451 - INFO - Authentication (password) successful!
+2024-11-21 15:15:49,717 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:15:57,980 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:15:58,435 - INFO - Authentication (password) successful!
+2024-11-21 15:16:00,198 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:16:08,913 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:16:09,365 - INFO - Authentication (password) successful!
+2024-11-21 15:16:10,648 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:16:18,899 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:16:19,363 - INFO - Authentication (password) successful!
+2024-11-21 15:16:20,640 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:16:28,900 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:16:29,340 - INFO - Authentication (password) successful!
+2024-11-21 15:16:30,599 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:16:38,939 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:16:39,354 - INFO - Authentication (password) successful!
+2024-11-21 15:16:40,639 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:16:48,942 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:16:49,403 - INFO - Authentication (password) successful!
+2024-11-21 15:16:50,689 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:16:58,879 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:16:59,339 - INFO - Authentication (password) successful!
+2024-11-21 15:17:01,125 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:17:41,966 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:17:42,424 - INFO - Authentication (password) successful!
+2024-11-21 15:17:43,726 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:18:41,917 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:18:42,359 - INFO - Authentication (password) successful!
+2024-11-21 15:18:44,003 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:19:28,401 - INFO - Scheduler started
+2024-11-21 15:19:28,401 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:19:30,149 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:19:30,610 - INFO - Authentication (password) successful!
+2024-11-21 15:19:31,918 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:19:36,467 - INFO - Tentando conectar à VM de armazenamento 189.113.9.3 com usuário SSH 'root'.
+2024-11-21 15:19:36,536 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:19:38,056 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:19:38,553 - INFO - Authentication (password) successful!
+2024-11-21 15:19:39,520 - INFO - Authentication (password) failed.
+2024-11-21 15:19:39,520 - ERROR - Erro ao realizar backup para o banco de dados 'bi_pesquisa' na VM 189.113.9.3: Authentication failed.
+2024-11-21 15:19:39,521 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:19:39,844 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:19:47,994 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:19:48,413 - INFO - Authentication (password) successful!
+2024-11-21 15:19:50,062 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:19:57,969 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:19:58,401 - INFO - Authentication (password) successful!
+2024-11-21 15:19:59,686 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:20:08,192 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:08,639 - INFO - Authentication (password) successful!
+2024-11-21 15:20:09,978 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:20:12,283 - INFO - Scheduler started
+2024-11-21 15:20:12,284 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:20:16,608 - INFO - Tentando conectar à VM de armazenamento 189.113.9.3 com usuário SSH 'root'.
+2024-11-21 15:20:16,680 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:17,977 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:18,408 - INFO - Authentication (password) successful!
+2024-11-21 15:20:19,673 - INFO - Authentication (password) failed.
+2024-11-21 15:20:19,673 - ERROR - Erro ao realizar backup para o banco de dados 'bi_pesquisa' na VM 189.113.9.3: Authentication failed.
+2024-11-21 15:20:19,673 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:20:19,687 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:20:27,975 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:28,418 - INFO - Authentication (password) successful!
+2024-11-21 15:20:29,686 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:20:37,959 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:38,474 - INFO - Authentication (password) successful!
+2024-11-21 15:20:39,773 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:20:47,993 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:48,434 - INFO - Authentication (password) successful!
+2024-11-21 15:20:49,733 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:20:58,946 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:20:59,406 - INFO - Authentication (password) successful!
+2024-11-21 15:21:01,158 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:21:08,971 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:21:09,419 - INFO - Authentication (password) successful!
+2024-11-21 15:21:10,706 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:21:18,962 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:21:19,431 - INFO - Authentication (password) successful!
+2024-11-21 15:21:20,811 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:21:28,910 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:21:29,369 - INFO - Authentication (password) successful!
+2024-11-21 15:21:30,651 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:21:37,986 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:21:38,428 - INFO - Authentication (password) successful!
+2024-11-21 15:21:39,715 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:21:47,988 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:21:48,427 - INFO - Authentication (password) successful!
+2024-11-21 15:21:49,681 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:21:57,986 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:21:58,432 - INFO - Authentication (password) successful!
+2024-11-21 15:21:59,711 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:22:07,995 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:22:08,439 - INFO - Authentication (password) successful!
+2024-11-21 15:22:10,231 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:22:18,051 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:22:18,501 - INFO - Authentication (password) successful!
+2024-11-21 15:22:19,777 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:22:28,980 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:22:29,699 - INFO - Authentication (password) successful!
+2024-11-21 15:22:30,988 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:22:38,920 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:22:39,373 - INFO - Authentication (password) successful!
+2024-11-21 15:22:40,645 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:22:49,098 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:22:49,648 - INFO - Authentication (password) successful!
+2024-11-21 15:22:50,948 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:22:59,021 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:22:59,457 - INFO - Authentication (password) successful!
+2024-11-21 15:23:00,777 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:23:09,112 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:23:09,708 - INFO - Authentication (password) successful!
+2024-11-21 15:23:11,324 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:23:18,943 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:23:19,405 - INFO - Authentication (password) successful!
+2024-11-21 15:23:20,695 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:23:41,932 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:23:42,380 - INFO - Authentication (password) successful!
+2024-11-21 15:23:43,663 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:20,334 - INFO - Scheduler started
+2024-11-21 15:25:20,337 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:25:27,337 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:27,789 - INFO - Authentication (password) successful!
+2024-11-21 15:25:28,080 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:28,509 - INFO - Authentication (password) successful!
+2024-11-21 15:25:29,531 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:29,809 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:30,432 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:30,842 - INFO - Authentication (password) successful!
+2024-11-21 15:25:32,085 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:33,308 - INFO - Scheduler started
+2024-11-21 15:25:33,308 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 15:25:34,182 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:34,654 - INFO - Authentication (password) successful!
+2024-11-21 15:25:35,926 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:37,985 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:38,442 - INFO - Authentication (password) successful!
+2024-11-21 15:25:39,730 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:48,028 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:48,458 - INFO - Authentication (password) successful!
+2024-11-21 15:25:48,960 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:49,354 - INFO - Authentication (password) successful!
+2024-11-21 15:25:49,741 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:25:57,963 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:25:58,415 - INFO - Authentication (password) successful!
+2024-11-21 15:25:59,688 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:26:04,871 - INFO - Backup concluído para o banco de dados na VM 189.113.9.6, banco de dados bi_pesquisa. Tamanho do dump: 91M
+2024-11-21 15:26:04,873 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 15:26:07,994 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:26:08,438 - INFO - Authentication (password) successful!
+2024-11-21 15:26:09,711 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:26:18,016 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 15:26:18,504 - INFO - Authentication (password) successful!
+2024-11-21 15:26:19,757 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 15:26:25,828 - INFO - Scheduler started
+2024-11-21 15:26:25,831 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 16:23:37,711 - INFO - Scheduler started
+2024-11-21 16:23:42,293 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:23:42,868 - INFO - Authentication (password) successful!
+2024-11-21 16:23:44,769 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:23:45,710 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:23:46,140 - INFO - Authentication (password) successful!
+2024-11-21 16:23:47,433 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:23:48,310 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:23:48,738 - INFO - Authentication (password) successful!
+2024-11-21 16:23:50,049 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:23:50,948 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:23:51,348 - INFO - Authentication (password) successful!
+2024-11-21 16:23:52,661 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:23:53,551 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:23:53,985 - INFO - Authentication (password) successful!
+2024-11-21 16:23:55,286 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:23:58,350 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:23:58,743 - INFO - Authentication (password) successful!
+2024-11-21 16:24:00,024 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:01,009 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:01,427 - INFO - Authentication (password) successful!
+2024-11-21 16:24:02,786 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:08,323 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:08,732 - INFO - Authentication (password) successful!
+2024-11-21 16:24:10,048 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:11,020 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:11,425 - INFO - Authentication (password) successful!
+2024-11-21 16:24:12,718 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:18,314 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:18,771 - INFO - Authentication (password) successful!
+2024-11-21 16:24:20,062 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:20,928 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:21,324 - INFO - Authentication (password) successful!
+2024-11-21 16:24:22,603 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:26,194 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:26,596 - INFO - Authentication (password) successful!
+2024-11-21 16:24:27,893 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:28,805 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:29,217 - INFO - Authentication (password) successful!
+2024-11-21 16:24:30,507 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:31,412 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:31,914 - INFO - Authentication (password) successful!
+2024-11-21 16:24:33,214 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:34,137 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:34,579 - INFO - Authentication (password) successful!
+2024-11-21 16:24:35,852 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:39,239 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:39,643 - INFO - Authentication (password) successful!
+2024-11-21 16:24:40,928 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:41,836 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:42,332 - INFO - Authentication (password) successful!
+2024-11-21 16:24:43,632 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:44,715 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:45,283 - INFO - Authentication (password) successful!
+2024-11-21 16:24:47,037 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:49,429 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:49,910 - INFO - Authentication (password) successful!
+2024-11-21 16:24:51,213 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:52,135 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:52,572 - INFO - Authentication (password) successful!
+2024-11-21 16:24:53,864 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:54,895 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:55,343 - INFO - Authentication (password) successful!
+2024-11-21 16:24:56,653 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:24:58,175 - INFO - Scheduler started
+2024-11-21 16:24:59,286 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:24:59,853 - INFO - Authentication (password) successful!
+2024-11-21 16:25:01,182 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:02,095 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:02,553 - INFO - Authentication (password) successful!
+2024-11-21 16:25:03,934 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:04,814 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:05,258 - INFO - Authentication (password) successful!
+2024-11-21 16:25:06,657 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:08,353 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:08,796 - INFO - Authentication (password) successful!
+2024-11-21 16:25:10,169 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:11,046 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:11,517 - INFO - Authentication (password) successful!
+2024-11-21 16:25:12,829 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:13,728 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:13,826 - ERROR - Erro ao obter dados de acesso da VM com IP 189.113.9.6 e client_id <function get_vm_by_ip at 0x10733cae0>: can't adapt type 'function'
+2024-11-21 16:25:13,827 - ERROR - Dados de acesso para a VM 189.113.9.6 do cliente <function get_vm_by_ip at 0x10733cae0> não encontrados.
+2024-11-21 16:25:13,827 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 16:25:14,182 - INFO - Authentication (password) successful!
+2024-11-21 16:25:15,471 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:18,362 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:18,775 - INFO - Authentication (password) successful!
+2024-11-21 16:25:20,053 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:20,989 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:21,432 - INFO - Authentication (password) successful!
+2024-11-21 16:25:22,744 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:23,651 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:24,086 - INFO - Authentication (password) successful!
+2024-11-21 16:25:25,373 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:28,356 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:28,787 - INFO - Authentication (password) successful!
+2024-11-21 16:25:30,100 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:31,007 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:31,465 - INFO - Authentication (password) successful!
+2024-11-21 16:25:32,742 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:33,629 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:34,076 - INFO - Authentication (password) successful!
+2024-11-21 16:25:35,401 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:39,296 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:39,738 - INFO - Authentication (password) successful!
+2024-11-21 16:25:41,060 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:41,952 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:42,535 - INFO - Authentication (password) successful!
+2024-11-21 16:25:43,822 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:44,845 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:45,284 - INFO - Authentication (password) successful!
+2024-11-21 16:25:46,576 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:49,368 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:49,801 - INFO - Authentication (password) successful!
+2024-11-21 16:25:51,505 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:52,469 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:52,908 - INFO - Authentication (password) successful!
+2024-11-21 16:25:54,211 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:55,100 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:55,491 - INFO - Authentication (password) successful!
+2024-11-21 16:25:56,877 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:25:59,389 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:25:59,826 - INFO - Authentication (password) successful!
+2024-11-21 16:26:01,162 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:02,126 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:02,557 - INFO - Authentication (password) successful!
+2024-11-21 16:26:03,923 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:04,875 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:05,376 - INFO - Authentication (password) successful!
+2024-11-21 16:26:06,742 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:09,431 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:09,977 - INFO - Authentication (password) successful!
+2024-11-21 16:26:11,314 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:12,252 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:12,657 - INFO - Authentication (password) successful!
+2024-11-21 16:26:13,997 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:15,045 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:15,586 - INFO - Authentication (password) successful!
+2024-11-21 16:26:16,868 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:19,378 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:19,998 - INFO - Authentication (password) successful!
+2024-11-21 16:26:21,327 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:22,259 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:22,711 - INFO - Authentication (password) successful!
+2024-11-21 16:26:24,021 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:24,952 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:25,384 - INFO - Authentication (password) successful!
+2024-11-21 16:26:26,685 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:27,938 - INFO - Scheduler started
+2024-11-21 16:26:29,310 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:29,744 - INFO - Authentication (password) successful!
+2024-11-21 16:26:31,150 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:32,107 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:32,530 - INFO - Authentication (password) successful!
+2024-11-21 16:26:33,818 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:34,702 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:35,144 - INFO - Authentication (password) successful!
+2024-11-21 16:26:36,438 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:42,283 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:42,724 - INFO - Authentication (password) successful!
+2024-11-21 16:26:44,031 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:44,905 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:45,347 - INFO - Authentication (password) successful!
+2024-11-21 16:26:46,638 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:26:47,527 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:26:47,957 - INFO - Authentication (password) successful!
+2024-11-21 16:26:49,262 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:27:42,420 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:27:42,881 - INFO - Authentication (password) successful!
+2024-11-21 16:27:44,697 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:27:45,587 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:27:46,043 - INFO - Authentication (password) successful!
+2024-11-21 16:27:47,362 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:27:48,273 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:27:48,717 - INFO - Authentication (password) successful!
+2024-11-21 16:27:50,008 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:28:42,314 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:28:42,863 - INFO - Authentication (password) successful!
+2024-11-21 16:28:44,187 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:28:45,184 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:28:45,767 - INFO - Authentication (password) successful!
+2024-11-21 16:28:47,459 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:28:48,392 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:28:48,844 - INFO - Authentication (password) successful!
+2024-11-21 16:28:50,147 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:30,620 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:31,088 - INFO - Authentication (password) successful!
+2024-11-21 16:29:32,426 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:33,343 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:33,787 - INFO - Authentication (password) successful!
+2024-11-21 16:29:35,070 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:39,207 - INFO - Scheduler started
+2024-11-21 16:29:39,208 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 16:29:40,145 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:40,638 - INFO - Authentication (password) successful!
+2024-11-21 16:29:41,933 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:42,853 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:43,305 - INFO - Authentication (password) successful!
+2024-11-21 16:29:44,579 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:45,534 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:45,987 - INFO - Authentication (password) successful!
+2024-11-21 16:29:47,298 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:48,449 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:48,899 - INFO - Authentication (password) successful!
+2024-11-21 16:29:50,598 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:51,494 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:51,919 - INFO - Authentication (password) successful!
+2024-11-21 16:29:53,264 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:29:54,757 - INFO - Conectando ao IP 189.113.9.3 com usuário root.
+2024-11-21 16:29:54,833 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:55,265 - INFO - Authentication (password) successful!
+2024-11-21 16:29:55,266 - INFO - Executando comando de backup: mkdir -p /home/bkp_bd && export PGPASSWORD='v@h&%NvM[8]Sf@1e8T$1@ko86' && /usr/bin/pg_dump -h 189.113.9.6 -U postgres -F c -d bi_pesquisa -f /home/bkp_bd/bi_pesquisa_20241121_162955_backup.dump
+2024-11-21 16:29:58,372 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:29:58,762 - INFO - Authentication (password) successful!
+2024-11-21 16:30:00,054 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:00,971 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:01,418 - INFO - Authentication (password) successful!
+2024-11-21 16:30:02,729 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:08,347 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:08,792 - INFO - Authentication (password) successful!
+2024-11-21 16:30:10,213 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:11,113 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:11,351 - INFO - Backup concluído com tamanho: 91M
+2024-11-21 16:30:11,351 - INFO - Cliente 5: Backup iniciado para VM 189.113.9.6, banco de dados bi_pesquisa.
+2024-11-21 16:30:11,569 - INFO - Authentication (password) successful!
+2024-11-21 16:30:12,890 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:18,356 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:18,809 - INFO - Authentication (password) successful!
+2024-11-21 16:30:20,090 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:20,985 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:21,408 - INFO - Authentication (password) successful!
+2024-11-21 16:30:22,716 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:28,353 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:28,779 - INFO - Authentication (password) successful!
+2024-11-21 16:30:30,088 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:30,973 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:31,426 - INFO - Authentication (password) successful!
+2024-11-21 16:30:32,729 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:43,246 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:43,692 - INFO - Authentication (password) successful!
+2024-11-21 16:30:44,977 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:45,873 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:46,334 - INFO - Authentication (password) successful!
+2024-11-21 16:30:47,644 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:48,538 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:48,936 - INFO - Authentication (password) successful!
+2024-11-21 16:30:50,241 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:51,170 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:51,571 - INFO - Authentication (password) successful!
+2024-11-21 16:30:53,290 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:54,393 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:54,841 - INFO - Authentication (password) successful!
+2024-11-21 16:30:56,126 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:30:59,273 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:30:59,669 - INFO - Authentication (password) successful!
+2024-11-21 16:31:00,957 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:01,838 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:02,267 - INFO - Authentication (password) successful!
+2024-11-21 16:31:03,609 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:09,264 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:09,700 - INFO - Authentication (password) successful!
+2024-11-21 16:31:11,047 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:11,934 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:12,359 - INFO - Authentication (password) successful!
+2024-11-21 16:31:13,654 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:19,291 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:19,725 - INFO - Authentication (password) successful!
+2024-11-21 16:31:21,021 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:21,932 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:22,384 - INFO - Authentication (password) successful!
+2024-11-21 16:31:23,673 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:29,469 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:29,905 - INFO - Authentication (password) successful!
+2024-11-21 16:31:31,241 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:32,166 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:32,605 - INFO - Authentication (password) successful!
+2024-11-21 16:31:33,962 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:42,285 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:42,758 - INFO - Authentication (password) successful!
+2024-11-21 16:31:44,108 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:45,043 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:45,466 - INFO - Authentication (password) successful!
+2024-11-21 16:31:46,779 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:31:47,698 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:31:48,109 - INFO - Authentication (password) successful!
+2024-11-21 16:31:49,433 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:32:12,844 - INFO - Added job "perform_backup" to job store "default"
+2024-11-21 16:32:12,909 - INFO - Cliente 5: Agendado backup para VM 189.113.9.6, banco de dados bi_pesquisa, frequência daily às 16:35.
+2024-11-21 16:32:12,910 - INFO - Cliente 5: Backup agendado com sucesso.
+2024-11-21 16:32:42,321 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:32:42,758 - INFO - Authentication (password) successful!
+2024-11-21 16:32:44,482 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:32:45,374 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:32:45,819 - INFO - Authentication (password) successful!
+2024-11-21 16:32:47,125 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:32:47,996 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:32:48,447 - INFO - Authentication (password) successful!
+2024-11-21 16:32:49,739 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:33:42,320 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:33:42,767 - INFO - Authentication (password) successful!
+2024-11-21 16:33:44,057 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:33:44,974 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:33:45,408 - INFO - Authentication (password) successful!
+2024-11-21 16:33:47,634 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:33:48,660 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:33:49,172 - INFO - Authentication (password) successful!
+2024-11-21 16:33:50,651 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:34:42,314 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:34:42,756 - INFO - Authentication (password) successful!
+2024-11-21 16:34:44,060 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:34:44,945 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:34:45,393 - INFO - Authentication (password) successful!
+2024-11-21 16:34:46,724 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:34:47,597 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:34:48,038 - INFO - Authentication (password) successful!
+2024-11-21 16:34:49,731 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:35:00,140 - INFO - Running job "perform_backup (trigger: cron[hour='16', minute='35'], next run at: 2024-11-21 16:35:00 -03)" (scheduled at 2024-11-21 16:35:00-03:00)
+2024-11-21 16:35:00,431 - INFO - Conectando ao IP 189.113.9.3 com usuário root.
+2024-11-21 16:35:00,512 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:00,953 - INFO - Authentication (password) successful!
+2024-11-21 16:35:00,954 - INFO - Executando comando de backup: mkdir -p /home/bkp_bd && export PGPASSWORD='v@h&%NvM[8]Sf@1e8T$1@ko86' && /usr/bin/pg_dump -h 189.113.9.6 -U postgres -F c -d bi_pesquisa -f /home/bkp_bd/bi_pesquisa_20241121_163500_backup.dump
+2024-11-21 16:35:17,303 - INFO - Backup concluído com tamanho: 91M
+2024-11-21 16:35:17,306 - INFO - Job "perform_backup (trigger: cron[hour='16', minute='35'], next run at: 2024-11-22 16:35:00 -03)" executed successfully
+2024-11-21 16:35:42,318 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:42,764 - INFO - Authentication (password) successful!
+2024-11-21 16:35:44,067 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:35:45,002 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:45,441 - INFO - Authentication (password) successful!
+2024-11-21 16:35:46,767 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:35:47,651 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:48,080 - INFO - Authentication (password) successful!
+2024-11-21 16:35:49,380 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:35:50,285 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:50,745 - INFO - Authentication (password) successful!
+2024-11-21 16:35:52,491 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:35:53,398 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:53,843 - INFO - Authentication (password) successful!
+2024-11-21 16:35:55,137 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:35:59,273 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:35:59,716 - INFO - Authentication (password) successful!
+2024-11-21 16:36:01,047 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:01,955 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:02,403 - INFO - Authentication (password) successful!
+2024-11-21 16:36:03,733 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:09,300 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:09,724 - INFO - Authentication (password) successful!
+2024-11-21 16:36:11,076 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:12,959 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:13,360 - INFO - Authentication (password) successful!
+2024-11-21 16:36:14,669 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:19,309 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:19,768 - INFO - Authentication (password) successful!
+2024-11-21 16:36:21,062 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:21,978 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:22,410 - INFO - Authentication (password) successful!
+2024-11-21 16:36:23,731 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:29,365 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:29,774 - INFO - Authentication (password) successful!
+2024-11-21 16:36:29,976 - INFO - Added job "perform_backup" to job store "default"
+2024-11-21 16:36:30,042 - INFO - Cliente 5: Agendado backup para VM 189.113.9.6, banco de dados bi_pesquisa, frequência weekly às 16:38.
+2024-11-21 16:36:30,043 - INFO - Cliente 5: Backup agendado com sucesso.
+2024-11-21 16:36:31,074 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:31,996 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:32,434 - INFO - Authentication (password) successful!
+2024-11-21 16:36:33,759 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:39,311 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:39,753 - INFO - Authentication (password) successful!
+2024-11-21 16:36:41,087 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:41,999 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:42,440 - INFO - Authentication (password) successful!
+2024-11-21 16:36:43,747 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:44,633 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:36:45,081 - INFO - Authentication (password) successful!
+2024-11-21 16:36:46,390 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:36:52,860 - INFO - Cliente 5: Listagem de backups realizada.
+2024-11-21 16:37:42,295 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:37:42,736 - INFO - Authentication (password) successful!
+2024-11-21 16:37:44,471 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:37:45,354 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:37:45,834 - INFO - Authentication (password) successful!
+2024-11-21 16:37:47,172 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:37:48,047 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:37:48,500 - INFO - Authentication (password) successful!
+2024-11-21 16:37:49,808 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:38:42,298 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:38:42,739 - INFO - Authentication (password) successful!
+2024-11-21 16:38:44,026 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:38:44,908 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:38:45,352 - INFO - Authentication (password) successful!
+2024-11-21 16:38:47,131 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:38:48,011 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:38:48,445 - INFO - Authentication (password) successful!
+2024-11-21 16:38:49,748 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:39:42,296 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:39:42,742 - INFO - Authentication (password) successful!
+2024-11-21 16:39:44,104 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:39:46,016 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:39:46,452 - INFO - Authentication (password) successful!
+2024-11-21 16:39:48,173 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:39:49,085 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:39:49,525 - INFO - Authentication (password) successful!
+2024-11-21 16:39:50,824 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:40:23,604 - INFO - Removed job backup_189.113.9.6_bi_pesquisa_weekly_16_38
+2024-11-21 16:40:23,661 - INFO - Cliente 5: Agendamento de backup removido: backup_189.113.9.6_bi_pesquisa_weekly_16_38
+2024-11-21 16:40:23,662 - INFO - Cliente 5: Agendamento backup_189.113.9.6_bi_pesquisa_weekly_16_38 removido com sucesso.
+2024-11-21 16:40:42,234 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:40:42,660 - INFO - Authentication (password) successful!
+2024-11-21 16:40:43,952 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:40:44,840 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:40:45,272 - INFO - Authentication (password) successful!
+2024-11-21 16:40:46,620 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:40:47,494 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:40:47,949 - INFO - Authentication (password) successful!
+2024-11-21 16:40:49,719 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:40:57,048 - INFO - Scheduler started
+2024-11-21 16:40:57,049 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 16:41:39,223 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:39,683 - INFO - Authentication (password) successful!
+2024-11-21 16:41:40,982 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:41:41,871 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:42,303 - INFO - Authentication (password) successful!
+2024-11-21 16:41:43,642 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:41:44,540 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:44,982 - INFO - Authentication (password) successful!
+2024-11-21 16:41:46,316 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:41:47,234 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:47,692 - INFO - Authentication (password) successful!
+2024-11-21 16:41:49,013 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:41:49,919 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:50,390 - INFO - Authentication (password) successful!
+2024-11-21 16:41:52,260 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:41:53,227 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:53,671 - INFO - Authentication (password) successful!
+2024-11-21 16:41:54,993 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:41:57,988 - INFO - Added job "perform_backup" to job store "default"
+2024-11-21 16:41:58,053 - INFO - Cliente 5: Agendado backup para VM 189.113.9.6, banco de dados bi_pesquisa, frequência weekly às 16:44.
+2024-11-21 16:41:58,054 - INFO - Cliente 5: Backup agendado com sucesso.
+2024-11-21 16:41:59,262 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:41:59,689 - INFO - Authentication (password) successful!
+2024-11-21 16:42:01,020 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:01,910 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:02,337 - INFO - Authentication (password) successful!
+2024-11-21 16:42:03,710 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:09,245 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:09,686 - INFO - Authentication (password) successful!
+2024-11-21 16:42:11,043 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:11,948 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:12,402 - INFO - Authentication (password) successful!
+2024-11-21 16:42:13,794 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:15,474 - INFO - Cliente 5: Listagem de backups realizada.
+2024-11-21 16:42:19,233 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:19,673 - INFO - Authentication (password) successful!
+2024-11-21 16:42:21,035 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:21,919 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:22,366 - INFO - Authentication (password) successful!
+2024-11-21 16:42:23,755 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:29,284 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:29,782 - INFO - Authentication (password) successful!
+2024-11-21 16:42:31,157 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:32,194 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:32,668 - INFO - Authentication (password) successful!
+2024-11-21 16:42:34,194 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:39,232 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:39,664 - INFO - Authentication (password) successful!
+2024-11-21 16:42:41,040 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:42,283 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:42,735 - INFO - Authentication (password) successful!
+2024-11-21 16:42:44,047 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:42:45,021 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:42:45,467 - INFO - Authentication (password) successful!
+2024-11-21 16:42:46,746 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:43:42,230 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:43:42,679 - INFO - Authentication (password) successful!
+2024-11-21 16:43:44,404 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:43:45,282 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:43:45,720 - INFO - Authentication (password) successful!
+2024-11-21 16:43:47,042 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:43:47,929 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:43:48,388 - INFO - Authentication (password) successful!
+2024-11-21 16:43:49,677 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:44:00,150 - INFO - Running job "perform_backup (trigger: cron[day_of_week='thu', hour='16', minute='44'], next run at: 2024-11-21 16:44:00 -03)" (scheduled at 2024-11-21 16:44:00-03:00)
+2024-11-21 16:44:00,453 - INFO - Conectando ao IP 189.113.9.3 com usuário root.
+2024-11-21 16:44:00,530 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:44:00,977 - INFO - Authentication (password) successful!
+2024-11-21 16:44:00,979 - INFO - Executando comando de backup: mkdir -p /home/bkp_bd && export PGPASSWORD='v@h&%NvM[8]Sf@1e8T$1@ko86' && /usr/bin/pg_dump -h 189.113.9.6 -U postgres -F c -d bi_pesquisa -f /home/bkp_bd/bi_pesquisa_20241121_164400_backup.dump
+2024-11-21 16:44:17,714 - INFO - Backup concluído com tamanho: 91M
+2024-11-21 16:44:17,716 - INFO - Job "perform_backup (trigger: cron[day_of_week='thu', hour='16', minute='44'], next run at: 2024-11-28 16:44:00 -03)" executed successfully
+2024-11-21 16:44:42,246 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:44:42,693 - INFO - Authentication (password) successful!
+2024-11-21 16:44:44,025 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:44:44,905 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:44:45,349 - INFO - Authentication (password) successful!
+2024-11-21 16:44:47,193 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:44:48,099 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:44:48,533 - INFO - Authentication (password) successful!
+2024-11-21 16:44:49,839 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:45:42,208 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:45:42,691 - INFO - Authentication (password) successful!
+2024-11-21 16:45:44,011 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:45:44,929 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:45:45,364 - INFO - Authentication (password) successful!
+2024-11-21 16:45:46,694 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:45:47,720 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:45:48,171 - INFO - Authentication (password) successful!
+2024-11-21 16:45:49,837 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:46:42,230 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:46:42,672 - INFO - Authentication (password) successful!
+2024-11-21 16:46:43,965 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:46:44,848 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:46:45,289 - INFO - Authentication (password) successful!
+2024-11-21 16:46:46,585 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:46:47,453 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:46:47,918 - INFO - Authentication (password) successful!
+2024-11-21 16:46:49,212 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:47:42,224 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:47:42,670 - INFO - Authentication (password) successful!
+2024-11-21 16:47:44,366 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:47:45,248 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:47:45,698 - INFO - Authentication (password) successful!
+2024-11-21 16:47:47,043 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:47:47,991 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:47:48,447 - INFO - Authentication (password) successful!
+2024-11-21 16:47:49,719 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:48:42,285 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:48:42,746 - INFO - Authentication (password) successful!
+2024-11-21 16:48:44,025 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:48:44,933 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:48:45,373 - INFO - Authentication (password) successful!
+2024-11-21 16:48:47,105 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:48:48,013 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:48:48,453 - INFO - Authentication (password) successful!
+2024-11-21 16:48:49,789 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:48:50,677 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:48:51,094 - INFO - Authentication (password) successful!
+2024-11-21 16:48:52,344 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:48:53,245 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:48:53,702 - INFO - Authentication (password) successful!
+2024-11-21 16:48:54,981 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:48:58,306 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:48:58,753 - INFO - Authentication (password) successful!
+2024-11-21 16:49:00,030 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:00,961 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:01,401 - INFO - Authentication (password) successful!
+2024-11-21 16:49:02,698 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:08,301 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:08,743 - INFO - Authentication (password) successful!
+2024-11-21 16:49:10,087 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:10,965 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:11,369 - INFO - Authentication (password) successful!
+2024-11-21 16:49:12,662 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:18,410 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:18,853 - INFO - Authentication (password) successful!
+2024-11-21 16:49:20,154 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:21,086 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:21,507 - INFO - Authentication (password) successful!
+2024-11-21 16:49:22,818 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:25,242 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:25,709 - INFO - Authentication (password) successful!
+2024-11-21 16:49:26,978 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:27,900 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:28,305 - INFO - Authentication (password) successful!
+2024-11-21 16:49:29,587 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:37,902 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:38,347 - INFO - Authentication (password) successful!
+2024-11-21 16:49:39,652 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:42,260 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:42,699 - INFO - Authentication (password) successful!
+2024-11-21 16:49:43,973 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:47,908 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:48,348 - INFO - Authentication (password) successful!
+2024-11-21 16:49:50,073 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:49:57,889 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:58,327 - INFO - Authentication (password) successful!
+2024-11-21 16:49:58,726 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:49:59,186 - INFO - Authentication (password) successful!
+2024-11-21 16:49:59,724 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:00,196 - INFO - Authentication (password) successful!
+2024-11-21 16:50:00,584 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:01,034 - INFO - Authentication (password) successful!
+2024-11-21 16:50:02,025 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:50:02,488 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:50:36,700 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:37,151 - INFO - Authentication (password) successful!
+2024-11-21 16:50:38,522 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:38,972 - INFO - Authentication (password) successful!
+2024-11-21 16:50:40,338 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:50:41,238 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:41,679 - INFO - Authentication (password) successful!
+2024-11-21 16:50:43,088 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:43,551 - INFO - Authentication (password) successful!
+2024-11-21 16:50:44,922 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:50:45,834 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:46,288 - INFO - Authentication (password) successful!
+2024-11-21 16:50:47,649 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:48,110 - INFO - Authentication (password) successful!
+2024-11-21 16:50:49,501 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:50:51,240 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:51,677 - INFO - Authentication (password) successful!
+2024-11-21 16:50:53,437 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:50:53,877 - INFO - Authentication (password) successful!
+2024-11-21 16:50:55,253 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:01,247 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:01,782 - INFO - Authentication (password) successful!
+2024-11-21 16:51:03,198 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:03,654 - INFO - Authentication (password) successful!
+2024-11-21 16:51:05,502 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:11,294 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:11,734 - INFO - Authentication (password) successful!
+2024-11-21 16:51:13,134 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:13,578 - INFO - Authentication (password) successful!
+2024-11-21 16:51:14,936 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:21,252 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:21,696 - INFO - Authentication (password) successful!
+2024-11-21 16:51:23,091 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:23,545 - INFO - Authentication (password) successful!
+2024-11-21 16:51:24,922 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:31,257 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:31,709 - INFO - Authentication (password) successful!
+2024-11-21 16:51:33,062 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:41,253 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:41,678 - INFO - Authentication (password) successful!
+2024-11-21 16:51:43,054 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:43,966 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:44,415 - INFO - Authentication (password) successful!
+2024-11-21 16:51:45,790 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:51:51,255 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:51:51,680 - INFO - Authentication (password) successful!
+2024-11-21 16:51:53,050 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:01,254 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:01,710 - INFO - Authentication (password) successful!
+2024-11-21 16:52:03,077 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:11,266 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:11,739 - INFO - Authentication (password) successful!
+2024-11-21 16:52:13,613 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:21,375 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:21,992 - INFO - Authentication (password) successful!
+2024-11-21 16:52:23,590 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:31,248 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:31,705 - INFO - Authentication (password) successful!
+2024-11-21 16:52:33,102 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:41,261 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:41,719 - INFO - Authentication (password) successful!
+2024-11-21 16:52:43,109 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:44,274 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:44,810 - INFO - Authentication (password) successful!
+2024-11-21 16:52:46,374 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:52:51,239 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:52:51,696 - INFO - Authentication (password) successful!
+2024-11-21 16:52:53,087 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:01,254 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:01,718 - INFO - Authentication (password) successful!
+2024-11-21 16:53:03,085 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:11,250 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:11,708 - INFO - Authentication (password) successful!
+2024-11-21 16:53:13,197 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:21,274 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:21,722 - INFO - Authentication (password) successful!
+2024-11-21 16:53:23,676 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:31,243 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:31,698 - INFO - Authentication (password) successful!
+2024-11-21 16:53:33,098 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:41,271 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:41,716 - INFO - Authentication (password) successful!
+2024-11-21 16:53:43,086 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:44,016 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:44,445 - INFO - Authentication (password) successful!
+2024-11-21 16:53:45,814 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:53:51,332 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:53:51,802 - INFO - Authentication (password) successful!
+2024-11-21 16:53:53,167 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:01,255 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:01,706 - INFO - Authentication (password) successful!
+2024-11-21 16:54:03,087 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:11,308 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:11,768 - INFO - Authentication (password) successful!
+2024-11-21 16:54:13,151 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:21,269 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:21,718 - INFO - Authentication (password) successful!
+2024-11-21 16:54:23,079 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:31,247 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:31,703 - INFO - Authentication (password) successful!
+2024-11-21 16:54:33,600 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:41,283 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:41,736 - INFO - Authentication (password) successful!
+2024-11-21 16:54:43,141 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:44,046 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:44,498 - INFO - Authentication (password) successful!
+2024-11-21 16:54:45,864 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:54:51,239 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:54:51,691 - INFO - Authentication (password) successful!
+2024-11-21 16:54:53,119 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:01,233 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:01,690 - INFO - Authentication (password) successful!
+2024-11-21 16:55:03,070 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:12,278 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:12,737 - INFO - Authentication (password) successful!
+2024-11-21 16:55:14,113 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:22,263 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:22,737 - INFO - Authentication (password) successful!
+2024-11-21 16:55:24,136 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:32,233 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:32,687 - INFO - Authentication (password) successful!
+2024-11-21 16:55:34,503 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:42,268 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:42,739 - INFO - Authentication (password) successful!
+2024-11-21 16:55:44,122 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:45,016 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:45,459 - INFO - Authentication (password) successful!
+2024-11-21 16:55:46,820 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:55:52,247 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:55:52,721 - INFO - Authentication (password) successful!
+2024-11-21 16:55:54,098 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:02,270 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:02,722 - INFO - Authentication (password) successful!
+2024-11-21 16:56:04,090 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:14,160 - INFO - Scheduler started
+2024-11-21 16:56:14,162 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 16:56:17,978 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:18,430 - INFO - Authentication (password) successful!
+2024-11-21 16:56:19,829 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:21,234 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:21,714 - INFO - Authentication (password) successful!
+2024-11-21 16:56:23,072 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:32,280 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:32,756 - INFO - Authentication (password) successful!
+2024-11-21 16:56:34,126 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:42,278 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:42,800 - INFO - Authentication (password) successful!
+2024-11-21 16:56:44,618 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:45,523 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:45,983 - INFO - Authentication (password) successful!
+2024-11-21 16:56:47,342 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:56:51,279 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:56:51,727 - INFO - Authentication (password) successful!
+2024-11-21 16:56:53,120 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:02,258 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:02,724 - INFO - Authentication (password) successful!
+2024-11-21 16:57:04,107 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:12,257 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:12,723 - INFO - Authentication (password) successful!
+2024-11-21 16:57:14,112 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:22,014 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:22,473 - INFO - Authentication (password) successful!
+2024-11-21 16:57:23,937 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:33,264 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:33,735 - INFO - Authentication (password) successful!
+2024-11-21 16:57:35,128 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:42,262 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:42,717 - INFO - Authentication (password) successful!
+2024-11-21 16:57:44,138 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:45,076 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:45,515 - INFO - Authentication (password) successful!
+2024-11-21 16:57:47,364 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:57:52,282 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:57:52,736 - INFO - Authentication (password) successful!
+2024-11-21 16:57:54,083 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:58:02,212 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:58:02,663 - INFO - Authentication (password) successful!
+2024-11-21 16:58:04,046 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:58:12,211 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:58:12,633 - INFO - Authentication (password) successful!
+2024-11-21 16:58:13,991 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:58:22,219 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:58:22,678 - INFO - Authentication (password) successful!
+2024-11-21 16:58:24,059 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:58:42,254 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:58:42,710 - INFO - Authentication (password) successful!
+2024-11-21 16:58:44,107 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:58:45,047 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:58:45,481 - INFO - Authentication (password) successful!
+2024-11-21 16:58:46,866 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:58:57,509 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:58:57,980 - INFO - Authentication (password) successful!
+2024-11-21 16:58:59,726 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:01,259 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:01,721 - INFO - Authentication (password) successful!
+2024-11-21 16:59:03,079 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:11,262 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:11,710 - INFO - Authentication (password) successful!
+2024-11-21 16:59:13,091 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:21,268 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:21,733 - INFO - Authentication (password) successful!
+2024-11-21 16:59:23,151 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:31,256 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:31,706 - INFO - Authentication (password) successful!
+2024-11-21 16:59:33,112 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:41,273 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:41,735 - INFO - Authentication (password) successful!
+2024-11-21 16:59:43,095 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:43,980 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:44,417 - INFO - Authentication (password) successful!
+2024-11-21 16:59:45,766 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 16:59:51,241 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 16:59:51,674 - INFO - Authentication (password) successful!
+2024-11-21 16:59:53,051 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:01,321 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:01,772 - INFO - Authentication (password) successful!
+2024-11-21 17:00:03,677 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:11,242 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:11,679 - INFO - Authentication (password) successful!
+2024-11-21 17:00:13,055 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:22,244 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:22,706 - INFO - Authentication (password) successful!
+2024-11-21 17:00:24,071 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:31,258 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:31,716 - INFO - Authentication (password) successful!
+2024-11-21 17:00:33,107 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:41,270 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:41,710 - INFO - Authentication (password) successful!
+2024-11-21 17:00:43,097 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:44,000 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:44,419 - INFO - Authentication (password) successful!
+2024-11-21 17:00:45,851 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:00:51,230 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:00:51,654 - INFO - Authentication (password) successful!
+2024-11-21 17:00:53,048 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:01,286 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:01,738 - INFO - Authentication (password) successful!
+2024-11-21 17:01:03,120 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:11,289 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:11,755 - INFO - Authentication (password) successful!
+2024-11-21 17:01:13,847 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:21,256 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:21,715 - INFO - Authentication (password) successful!
+2024-11-21 17:01:23,093 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:31,259 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:31,701 - INFO - Authentication (password) successful!
+2024-11-21 17:01:33,093 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:41,251 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:41,749 - INFO - Authentication (password) successful!
+2024-11-21 17:01:43,127 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:43,995 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:44,435 - INFO - Authentication (password) successful!
+2024-11-21 17:01:45,865 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:01:51,245 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:01:51,697 - INFO - Authentication (password) successful!
+2024-11-21 17:01:53,080 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:01,250 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:01,662 - INFO - Authentication (password) successful!
+2024-11-21 17:02:03,088 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:11,296 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:11,764 - INFO - Authentication (password) successful!
+2024-11-21 17:02:13,138 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:21,272 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:21,737 - INFO - Authentication (password) successful!
+2024-11-21 17:02:23,714 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:27,423 - INFO - Scheduler started
+2024-11-21 17:02:27,425 - INFO - Scheduler iniciado no evento de startup.
+2024-11-21 17:02:32,279 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:32,749 - INFO - Authentication (password) successful!
+2024-11-21 17:02:34,147 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:41,265 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:41,776 - INFO - Authentication (password) successful!
+2024-11-21 17:02:43,196 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:44,099 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:44,551 - INFO - Authentication (password) successful!
+2024-11-21 17:02:45,939 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:02:51,239 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:02:51,695 - INFO - Authentication (password) successful!
+2024-11-21 17:02:53,087 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:02,264 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:02,730 - INFO - Authentication (password) successful!
+2024-11-21 17:03:04,161 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:12,229 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:12,679 - INFO - Authentication (password) successful!
+2024-11-21 17:03:14,067 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:14,983 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:15,442 - INFO - Authentication (password) successful!
+2024-11-21 17:03:16,834 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:19,025 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:19,485 - INFO - Authentication (password) successful!
+2024-11-21 17:03:20,864 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:21,866 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:22,386 - INFO - Authentication (password) successful!
+2024-11-21 17:03:24,235 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:30,263 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:30,740 - INFO - Authentication (password) successful!
+2024-11-21 17:03:32,189 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:39,272 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:39,755 - INFO - Authentication (password) successful!
+2024-11-21 17:03:41,190 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:49,260 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:49,701 - INFO - Authentication (password) successful!
+2024-11-21 17:03:51,067 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:03:59,283 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:03:59,741 - INFO - Authentication (password) successful!
+2024-11-21 17:04:01,160 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:04:09,272 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:04:09,735 - INFO - Authentication (password) successful!
+2024-11-21 17:04:11,116 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:04:20,249 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:04:20,723 - INFO - Authentication (password) successful!
+2024-11-21 17:04:22,194 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:04:42,261 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:04:42,739 - INFO - Authentication (password) successful!
+2024-11-21 17:04:44,597 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:05:28,415 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:05:28,900 - INFO - Authentication (password) successful!
+2024-11-21 17:05:30,400 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:05:31,307 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:05:31,731 - INFO - Authentication (password) successful!
+2024-11-21 17:05:33,101 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:05:42,268 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:05:42,723 - INFO - Authentication (password) successful!
+2024-11-21 17:05:44,095 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-21 17:06:42,289 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-11-21 17:06:42,759 - INFO - Authentication (password) successful!
+2024-11-21 17:06:44,632 - INFO - Cliente 5: Monitoramento realizado.
+2024-11-29 09:44:42,669 - INFO - Scheduler started
+2024-11-29 09:44:42,670 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:45:43,227 - INFO - Scheduler started
+2024-11-29 09:45:43,228 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:46:48,715 - INFO - Scheduler started
+2024-11-29 09:46:48,717 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:46:58,939 - INFO - Scheduler started
+2024-11-29 09:46:58,940 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:47:00,572 - INFO - Scheduler started
+2024-11-29 09:47:00,572 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:47:01,888 - INFO - Scheduler started
+2024-11-29 09:47:01,890 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:47:22,646 - INFO - Scheduler started
+2024-11-29 09:47:22,647 - INFO - Scheduler iniciado no evento de startup.
+2024-11-29 09:47:29,678 - INFO - Scheduler started
+2024-11-29 09:47:29,679 - INFO - Scheduler iniciado no evento de startup.

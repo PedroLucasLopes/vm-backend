@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor de VMs</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px; /* Aumentei a largura máxima para acomodar a grade */
+            margin: auto;
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        /* Notificação */
+        .notification {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            min-width: 300px;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            display: none;
+            z-index: 1000;
+        }
+        .notification.success { background-color: #4CAF50; }
+        .notification.error { background-color: #f44336; }
+
+        /* Grid para as VMs */
+        #vm-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .vm {
+            position: relative; /* Para posicionar o indicador de status */
+            background-color: #fafafa;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .status-indicator {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            animation: blink 1s infinite;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        .status-on { background-color: green; }
+        .status-off { background-color: red; }
+        .vm-info {
+            margin-bottom: 10px;
+        }
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .actions input {
+            flex: 1 1 100%;
+            padding: 5px;
+            font-size: 14px;
+        }
+        button {
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+        .start { background-color: #4CAF50; }
+        .stop { background-color: #f44336; }
+        .restart { background-color: #ff9800; }
+        .backup { background-color: #2196F3; }
+        .dumpall { background-color: #9C27B0; }
+        .logout { background-color: #555; position: absolute; top: 20px; right: 20px; }
+        @keyframes blink {
+            50% { opacity: 0.5; }
+        }
+        /* Estilos para o box de senha (modal) */
+        .password-prompt {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            text-align: center;
+            z-index: 1000;
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 500;
+        }
+        /* Estilos para o formulário de login */
+        #login-container {
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        #login-container input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        #login-container button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+        /* Classes para uso de CPU e memória */
+        .usage-normal {
+            color: green;
+        }
+        .usage-warning {
+            color: orange;
+        }
+        .usage-critical {
+            color: red;
+        }
+        /* Estilos para os botões Confirmar e Cancelar */
+        .confirm-button {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cancel-button {
+            background-color: #f44336; /* Vermelho */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Estilo para botões desativados */
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        /* Responsividade */
+        @media (max-width: 1000px) {
+            #vm-list {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+        }
+        @media (max-width: 600px) {
+            #vm-list {
+                grid-template-columns: 1fr;
+            }
+            .logout {
+                position: static;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Elemento de Notificação -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Container de Login -->
+    <div id="login-container">
+        <h2>Login</h2>
+        <form id="login-form" onsubmit="event.preventDefault(); login();">
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <!-- Container Principal -->
+    <div id="main-container" style="display:none;">
+        <button class="logout" onclick="logout()">Logout</button>
+        <div class="container">
+            <h2>Monitor de VMs</h2>
+            <h2><label>Comandos Start Stop Restart para o PostgreSQL.</label><br>
+                <p style="color:rgb(124, 38, 38);">Comando DumpAll pode gerar lock no banco de dados</p></h2>
+            <div id="vm-list"></div>
+        </div>
+
+        <!-- Box de senha (Modal) -->
+        <div id="passwordPrompt" class="password-prompt">
+            <h3>Digite a senha do banco de dados</h3>
+            <input type="password" id="pgPasswordInput" placeholder="Senha">
+            <br><br>
+            <button class="confirm-button" onclick="confirmPassword()">Confirmar</button>
+            <button class="cancel-button" onclick="closePasswordPrompt()">Cancelar</button>
+        </div>
+        <div id="overlay" class="overlay"></div>
+    </div>
+
+    <script>
+        const apiUrl = "http://127.0.0.1:8000";
+        let currentIp = null;
+        let currentDatabase = null;
+        let authHeader = null; // Variável para armazenar o cabeçalho de autenticação
+
+        function showNotification(message, isSuccess = true, duration = 3000) {
+            const notification = document.getElementById("notification");
+            notification.textContent = message;
+            notification.classList.remove("success", "error");
+            notification.classList.add(isSuccess ? "success" : "error");
+            notification.style.display = "block";
+
+            // Se duration for 0, a notificação não desaparecerá automaticamente
+            if (duration > 0) {
+                setTimeout(() => {
+                    notification.style.display = "none";
+                    notification.classList.remove("success", "error");
+                }, duration);
+            }
+        }
+
+        function login() {
+            const username = document.getElementById("username").value.trim();
+            const password = document.getElementById("password").value.trim();
+
+            if (username && password) {
+                // Codificar as credenciais em Base64
+                const encodedCredentials = btoa(`${username}:${password}`);
+                authHeader = `Basic ${encodedCredentials}`;
+
+                // Testar as credenciais fazendo uma requisição à API
+                fetch(`${apiUrl}/monitor`, {
+                    method: "GET",
+                    headers: {
+                        'Authorization': authHeader
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        // Armazenar a string de autenticação no localStorage
+                        localStorage.setItem("authHeader", authHeader);
+                        document.getElementById("login-container").style.display = "none";
+                        document.getElementById("main-container").style.display = "block";
+                        fetchVMStatus();
+                        setInterval(fetchVMStatus, 10000);
+                    } else if (response.status === 401) {
+                        throw new Error("Nome de usuário ou senha incorretos.");
+                    } else {
+                        throw new Error(`Erro inesperado: ${response.status} - ${response.statusText}`);
+                    }
+                })
+                .catch(error => {
+                    console.error("Erro no login:", error);
+                    showNotification("Nome de usuário ou senha incorretos.", false);
+                });
+            } else {
+                alert("Por favor, insira o nome de usuário e a senha.");
+            }
+        }
+
+        window.onload = function() {
+            const storedAuthHeader = localStorage.getItem("authHeader");
+            if (storedAuthHeader) {
+                authHeader = storedAuthHeader;
+                // Verificar se as credenciais ainda são válidas
+                fetch(`${apiUrl}/monitor`, {
+                    method: "GET",
+                    headers: {
+                        'Authorization': authHeader
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById("login-container").style.display = "none";
+                        document.getElementById("main-container").style.display = "block";
+                        fetchVMStatus();
+                        setInterval(fetchVMStatus, 10000);
+                    } else {
+                        throw new Error("Autenticação inválida.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Autenticação inválida:", error);
+                    localStorage.removeItem("authHeader");
+                    document.getElementById("main-container").style.display = "none";
+                    document.getElementById("login-container").style.display = "block";
+                });
+            } else {
+                document.getElementById("login-container").style.display = "block";
+                document.getElementById("main-container").style.display = "none";
+            }
+        };
+
+        function logout() {
+            localStorage.removeItem("authHeader");
+            authHeader = null;
+            document.getElementById("main-container").style.display = "none";
+            document.getElementById("login-container").style.display = "block";
+        }
+
+        async function fetchVMStatus() {
+            try {
+                const response = await fetch(`${apiUrl}/monitor`, {
+                    method: "GET",
+                    headers: {
+                        'Authorization': authHeader
+                    }
+                });
+                if (!response.ok) {
+                    if (response.status === 401) {
+                        throw new Error("Sessão expirada. Faça login novamente.");
+                    } else {
+                        throw new Error(`Erro na requisição: ${response.status} - ${response.statusText}`);
+                    }
+                }
+                const data = await response.json();
+                renderVMStatus(data);
+            } catch (error) {
+                console.error("Erro ao buscar status das VMs:", error);
+                showNotification(error.message, false);
+
+                // Manter a lista de VMs e definir um status de erro para exibição
+                const fallbackData = [
+                    {
+                        Name: "Desconhecido",
+                        IP: "Erro na comunicação",
+                        Uptime: "N/A",
+                        "PostgreSQL Status": "indisponível",
+                        "Free Disk Space": "N/A",
+                        "Active Connections": "N/A",
+                        "CPU Usage": "Unknown",
+                        "Memory Usage": "Unknown",
+                        "PostgreSQL Version": "N/A",
+                        "Response Time": "N/A"
+                    }
+                ];
+                renderVMStatus(fallbackData);
+            }
+        }
+
+        function renderVMStatus(data) {
+    const vmList = document.getElementById("vm-list");
+    vmList.innerHTML = "";
+
+    data.forEach(vm => {
+        const vmElement = document.createElement("div");
+        vmElement.classList.add("vm");
+
+        const statusIndicator = document.createElement("div");
+        let isStatusActive = false;
+
+        if ("Error" in vm) {
+            statusIndicator.classList.add("status-indicator", "status-off");
+        } else {
+            isStatusActive = vm["PostgreSQL Status"] === "active";
+            statusIndicator.classList.add("status-indicator", isStatusActive ? "status-on" : "status-off");
+        }
+
+        let cpuUsageClass = getUsageClass(vm["CPU Usage"] || "Unknown");
+        let memUsageClass = getUsageClass(vm["Memory Usage"] || "Unknown");
+
+        let vmInfo = `<div class="vm-info">
+            <strong>Nome:</strong> ${vm.Name} <br>
+            <strong>IP:</strong> ${vm.IP} <br>`;
+
+        if ("Error" in vm) {
+            vmInfo += `<strong>Status:</strong> Offline<br>
+            <strong>Erro:</strong> ${vm.Error} <br>`;
+        } else {
+            vmInfo += `
+            <strong>Uptime:</strong> ${vm.Uptime} <br>
+            <strong>PostgreSQL Status:</strong> ${isStatusActive ? "ON" : "OFF"} <br>
+            <strong>Espaço em Disco Livre:</strong> ${vm["Free Disk Space"]} <br>
+            <strong>Conexões Ativas:</strong> ${vm["Active Connections"]} <br>
+            <strong>Uso de CPU:</strong> <span class="${cpuUsageClass}">${vm["CPU Usage"]}</span> <br>
+            <strong>Uso de Memória:</strong> <span class="${memUsageClass}">${vm["Memory Usage"]}</span> <br>
+            <strong>Versão do PostgreSQL:</strong> ${vm["PostgreSQL Version"]} <br>
+            <strong>Tempo de Resposta:</strong> ${vm["Response Time"]} <br>`;
+        }
+
+        vmInfo += `</div>`;
+        vmElement.innerHTML = vmInfo;
+
+        if (!("Error" in vm)) {
+            const actionsDiv = document.createElement("div");
+            actionsDiv.classList.add("actions");
+            actionsDiv.innerHTML = `
+                <button class="start" onclick="controlDatabase('${vm.IP}', 'start')">Start</button>
+                <button class="stop" onclick="controlDatabase('${vm.IP}', 'stop')">Stop</button>
+                <button class="restart" onclick="controlDatabase('${vm.IP}', 'restart')">Restart</button>
+                <input type="text" id="db-name-${sanitizeIP(vm.IP)}" placeholder="Nome do Banco" />
+                <button class="backup" onclick="showPasswordPrompt('${vm.IP}')">Backup</button>
+                <button class="dumpall" onclick="dumpAllDatabases('${vm.IP}', this)">Backup All</button>
+            `;
+            vmElement.appendChild(actionsDiv);
+        } else {
+            const actionsDiv = document.createElement("div");
+            actionsDiv.classList.add("actions");
+            actionsDiv.innerHTML = `<p>Ações indisponíveis</p>`;
+            vmElement.appendChild(actionsDiv);
+        }
+
+        vmElement.appendChild(statusIndicator);
+        vmList.appendChild(vmElement);
+    });
+}
+
+        function getUsageClass(usageValue) {
+            if (usageValue === "Unknown" || usageValue === "N/A") {
+                return "";
+            }
+
+            const numericValue = parseFloat(usageValue.replace("%", ""));
+            if (numericValue >= 90) {
+                return "usage-critical";
+            } else if (numericValue >= 80) {
+                return "usage-warning";
+            } else {
+                return "usage-normal";
+            }
+        }
+
+        function sanitizeIP(ip) {
+            return ip.replace(/\./g, "-");
+        }
+
+        function showPasswordPrompt(ip) {
+            currentIp = ip;
+            const sanitizedIp = sanitizeIP(ip);
+            currentDatabase = document.getElementById(`db-name-${sanitizedIp}`).value;
+            if (!currentDatabase) {
+                alert("Por favor, insira o nome do banco de dados.");
+                return;
+            }
+            document.getElementById("pgPasswordInput").value = ""; // Limpar campo de senha
+            document.getElementById("passwordPrompt").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        function closePasswordPrompt() {
+            document.getElementById("passwordPrompt").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        async function confirmPassword() {
+            const pgPassword = document.getElementById("pgPasswordInput").value.trim();
+            if (!pgPassword) {
+                alert("Por favor, insira a senha do banco de dados.");
+                return;
+            }
+            closePasswordPrompt();
+            await backupDatabase(currentIp, currentDatabase, pgPassword);
+        }
+
+        async function backupDatabase(ip, database, pgPassword) {
+            try {
+                showNotification(`Iniciando backup do banco ${database} no IP ${ip}...`, true, 0); // Notificação persistente
+                const response = await fetch(`${apiUrl}/backup`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        'Authorization': authHeader
+                    },
+                    body: JSON.stringify({
+                        ip: ip,
+                        database: database,
+                        pg_password: pgPassword
+                    })
+                });
+
+                const result = await response.json();
+                if (response.ok) {
+                    showNotification(`Backup do banco ${database} no IP ${ip} realizado com sucesso.`, true);
+                } else {
+                    showNotification(`Erro ao realizar backup: ${result.Error || "Erro desconhecido"}`, false);
+                }
+            } catch (error) {
+                console.error("Erro ao realizar backup:", error);
+                showNotification(`Erro ao comunicar com o servidor: ${error.message}`, false);
+            }
+        }
+
+        async function controlDatabase(ip, action) {
+            try {
+                showNotification(`Iniciando ação '${action}' no IP ${ip}...`, true, 0); // Notificação persistente
+                const response = await fetch(`${apiUrl}/control`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        'Authorization': authHeader
+                    },
+                    body: JSON.stringify({ ip: ip, action: action })
+                });
+
+                const result = await response.json();
+                if (response.ok) {
+                    showNotification(`Ação '${action}' realizada com sucesso no IP ${ip}.`, true);
+                } else {
+                    showNotification(`Erro ao realizar a ação '${action}': ${result.Error}`, false);
+                }
+            } catch (error) {
+                console.error(`Erro ao realizar a ação '${action}':`, error);
+                showNotification(`Erro ao comunicar com o servidor: ${error.message}`, false);
+            }
+        }
+
+        async function dumpAllDatabases(ip, button) {
+            if (confirm(`Deseja realmente realizar um backup completo de todos os bancos de dados na VM com IP ${ip}?`)) {
+                try {
+                    // Notificação de início
+                    showNotification(`Iniciando backup completo na VM com IP ${ip}...`, true, 0); // Persistente
+
+                    // Desativar o botão para evitar múltiplos cliques
+                    button.disabled = true;
+                    button.style.backgroundColor = "#cccccc";
+                    button.style.cursor = "not-allowed";
+
+                    const response = await fetch(`${apiUrl}/dumpall`, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                            'Authorization': authHeader
+                        },
+                        body: JSON.stringify({ ip: ip })
+                    });
+
+                    const result = await response.json();
+                    if (response.ok) {
+                        // Notificação de conclusão com sucesso
+                        showNotification(`Backup completo na VM com IP ${ip} realizado com sucesso.`, true);
+                    } else {
+                        // Notificação de erro na conclusão
+                        showNotification(`Erro ao realizar dumpall: ${result.detail || "Erro desconhecido"}`, false);
+                    }
+                } catch (error) {
+                    console.error("Erro ao realizar dumpall:", error);
+                    showNotification(`Erro ao comunicar com o servidor: ${error.message}`, false);
+                } finally {
+                    // Reativar o botão
+                    button.disabled = false;
+                    button.style.backgroundColor = "#9C27B0";
+                    button.style.cursor = "pointer";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
