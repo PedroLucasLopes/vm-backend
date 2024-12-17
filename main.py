@@ -43,7 +43,7 @@ from scheduler import (
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "http://example.com"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
