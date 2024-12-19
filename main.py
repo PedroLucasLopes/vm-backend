@@ -3,6 +3,7 @@
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
+import asyncio
 import uvicorn
 import os
 import datetime
@@ -847,3 +848,13 @@ def start_scheduler():
     if not scheduler.running:
         scheduler.start()
         logger.info("Scheduler iniciado no evento de startup.")
+
+config = uvicorn.Config("main:app", host="localhost", port=8081)
+server = uvicorn.Server(config)
+
+# Se o loop de eventos já estiver em execução, criamos a tarefa diretamente
+if asyncio.get_event_loop().is_running():
+    asyncio.ensure_future(server.serve())
+else:
+    # Caso contrário, usamos asyncio.run para iniciar o servidor
+    asyncio.run(server.serve())
