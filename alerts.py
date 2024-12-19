@@ -7,7 +7,7 @@ import json
 # Configuração de logging para alerts.py
 logger = logging.getLogger("alerts")
 logger.setLevel(logging.DEBUG)  # Alterado para DEBUG para capturar logs de depuração
-handler = logging.FileHandler('alerts.log')
+handler = logging.FileHandler('./logs_monitor/alerts.log')
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)

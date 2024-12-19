@@ -47491,3 +47491,742 @@ DETAIL:  Key (job_id)=(backup_8_postgre_weekly_10_0_day_thu) already exists.
 2024-12-09 20:57:00,342 - ERROR - 
 2024-12-09 20:57:00,342 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
 2024-12-09 20:57:01,631 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-18 12:12:22,929 - INFO - Scheduler started
+2024-12-18 12:12:22,930 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 12:12:24,138 - INFO - Scheduler started
+2024-12-18 12:12:24,140 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 12:13:52,024 - INFO - 1 change detected
+2024-12-18 12:13:52,025 - INFO - 1 change detected
+2024-12-18 12:13:52,028 - INFO - 1 change detected
+2024-12-18 12:13:52,573 - INFO - Scheduler started
+2024-12-18 12:13:52,575 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 12:13:55,021 - INFO - Scheduler started
+2024-12-18 12:13:55,022 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 12:13:55,729 - INFO - Scheduler started
+2024-12-18 12:13:55,730 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 12:13:56,209 - INFO - Scheduler started
+2024-12-18 12:13:56,211 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 14:26:45,894 - INFO - Scheduler started
+2024-12-18 14:26:45,896 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 14:26:46,451 - INFO - Scheduler started
+2024-12-18 14:26:46,452 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 14:26:46,961 - INFO - Scheduler started
+2024-12-18 14:26:46,962 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 14:26:47,652 - INFO - Scheduler started
+2024-12-18 14:26:47,653 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 14:26:48,173 - INFO - Scheduler started
+2024-12-18 14:26:48,174 - INFO - Scheduler iniciado no evento de startup.
+2024-12-18 14:26:49,260 - INFO - Scheduler started
+2024-12-18 14:26:49,262 - INFO - Scheduler iniciado no evento de startup.
+2024-12-19 10:28:53,720 - INFO - Scheduler started
+2024-12-19 10:28:53,721 - INFO - Scheduler iniciado no evento de startup.
+2024-12-19 10:30:11,879 - INFO - Cliente 8: Listagem de VMs realizada.
+2024-12-19 10:30:12,629 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:30:23,587 - INFO - Removed job backup_8_postgre_weekly_12_0_day_wed
+2024-12-19 10:30:23,626 - INFO - Cliente 8: Agendamento de backup removido: backup_8_postgre_weekly_12_0_day_wed
+2024-12-19 10:30:23,627 - INFO - Cliente 8: Agendamento backup_8_postgre_weekly_12_0_day_wed removido com sucesso.
+2024-12-19 10:32:17,949 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:32:20,988 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:32:21,224 - INFO - Authentication (password) successful!
+2024-12-19 10:32:23,717 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:32:23,742 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:23,742 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:32:23,742 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:32:23,742 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:23,742 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:32:23,742 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:32:23,742 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:23,742 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:32:23,742 - ERROR -     raise EOFError()
+2024-12-19 10:32:23,742 - ERROR - EOFError
+2024-12-19 10:32:23,742 - ERROR - 
+2024-12-19 10:32:23,742 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:32:23,742 - ERROR - 
+2024-12-19 10:32:23,742 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:23,742 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:32:23,742 - ERROR -     self._check_banner()
+2024-12-19 10:32:23,742 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:32:23,742 - ERROR -     raise SSHException(
+2024-12-19 10:32:23,742 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:32:23,742 - ERROR - 
+2024-12-19 10:32:23,742 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:32:30,953 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:32:31,191 - INFO - Authentication (password) successful!
+2024-12-19 10:32:33,259 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:32:33,260 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:33,260 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:32:33,260 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:32:33,260 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:33,260 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:32:33,260 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:32:33,260 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:33,260 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:32:33,260 - ERROR -     raise EOFError()
+2024-12-19 10:32:33,260 - ERROR - EOFError
+2024-12-19 10:32:33,260 - ERROR - 
+2024-12-19 10:32:33,260 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:32:33,260 - ERROR - 
+2024-12-19 10:32:33,261 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:33,261 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:32:33,261 - ERROR -     self._check_banner()
+2024-12-19 10:32:33,261 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:32:33,261 - ERROR -     raise SSHException(
+2024-12-19 10:32:33,261 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:32:33,261 - ERROR - 
+2024-12-19 10:32:33,261 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:32:40,947 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:32:41,133 - INFO - Authentication (password) successful!
+2024-12-19 10:32:43,117 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:32:43,118 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:43,118 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:32:43,118 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:32:43,118 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:43,118 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:32:43,118 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:32:43,118 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:43,118 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:32:43,118 - ERROR -     raise EOFError()
+2024-12-19 10:32:43,118 - ERROR - EOFError
+2024-12-19 10:32:43,119 - ERROR - 
+2024-12-19 10:32:43,119 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:32:43,119 - ERROR - 
+2024-12-19 10:32:43,119 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:43,119 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:32:43,119 - ERROR -     self._check_banner()
+2024-12-19 10:32:43,119 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:32:43,119 - ERROR -     raise SSHException(
+2024-12-19 10:32:43,119 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:32:43,119 - ERROR - 
+2024-12-19 10:32:43,119 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:32:51,138 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:32:51,361 - INFO - Authentication (password) successful!
+2024-12-19 10:32:53,336 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:32:53,336 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:53,336 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:32:53,336 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:32:53,338 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:53,338 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:32:53,338 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:32:53,338 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:32:53,338 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:32:53,338 - ERROR -     raise EOFError()
+2024-12-19 10:32:53,338 - ERROR - EOFError
+2024-12-19 10:32:53,338 - ERROR - 
+2024-12-19 10:32:53,338 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:32:53,338 - ERROR - 
+2024-12-19 10:32:53,338 - ERROR - Traceback (most recent call last):
+2024-12-19 10:32:53,338 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:32:53,338 - ERROR -     self._check_banner()
+2024-12-19 10:32:53,338 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:32:53,338 - ERROR -     raise SSHException(
+2024-12-19 10:32:53,338 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:32:53,338 - ERROR - 
+2024-12-19 10:32:53,338 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:33:01,166 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:33:01,395 - INFO - Authentication (password) successful!
+2024-12-19 10:33:03,393 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:33:03,393 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:03,393 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:33:03,393 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:33:03,393 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:03,393 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:33:03,393 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:33:03,393 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:03,393 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:33:03,393 - ERROR -     raise EOFError()
+2024-12-19 10:33:03,394 - ERROR - EOFError
+2024-12-19 10:33:03,394 - ERROR - 
+2024-12-19 10:33:03,394 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:33:03,394 - ERROR - 
+2024-12-19 10:33:03,394 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:03,394 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:33:03,394 - ERROR -     self._check_banner()
+2024-12-19 10:33:03,394 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:33:03,394 - ERROR -     raise SSHException(
+2024-12-19 10:33:03,394 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:33:03,394 - ERROR - 
+2024-12-19 10:33:03,394 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:33:11,158 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:33:11,382 - INFO - Authentication (password) successful!
+2024-12-19 10:33:13,349 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:33:13,349 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:13,349 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:33:13,349 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:33:13,349 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:13,349 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:33:13,350 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:33:13,350 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:13,350 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:33:13,350 - ERROR -     raise EOFError()
+2024-12-19 10:33:13,350 - ERROR - EOFError
+2024-12-19 10:33:13,350 - ERROR - 
+2024-12-19 10:33:13,350 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:33:13,350 - ERROR - 
+2024-12-19 10:33:13,350 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:13,350 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:33:13,350 - ERROR -     self._check_banner()
+2024-12-19 10:33:13,459 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:33:13,459 - ERROR -     raise SSHException(
+2024-12-19 10:33:13,459 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:33:13,459 - ERROR - 
+2024-12-19 10:33:13,460 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:33:21,170 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:33:21,397 - INFO - Authentication (password) successful!
+2024-12-19 10:33:23,402 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:33:23,403 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:23,403 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:33:23,403 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:33:23,403 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:23,403 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:33:23,403 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:33:23,403 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:23,403 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:33:23,403 - ERROR -     raise EOFError()
+2024-12-19 10:33:23,403 - ERROR - EOFError
+2024-12-19 10:33:23,403 - ERROR - 
+2024-12-19 10:33:23,403 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:33:23,403 - ERROR - 
+2024-12-19 10:33:23,403 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:23,403 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:33:23,404 - ERROR -     self._check_banner()
+2024-12-19 10:33:23,404 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:33:23,404 - ERROR -     raise SSHException(
+2024-12-19 10:33:23,404 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:33:23,404 - ERROR - 
+2024-12-19 10:33:23,404 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:33:31,121 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:33:31,352 - INFO - Authentication (password) successful!
+2024-12-19 10:33:33,789 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:33:33,790 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:33,790 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:33:33,790 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:33:33,790 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:33,790 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:33:33,790 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:33:33,790 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:33,790 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:33:33,790 - ERROR -     raise EOFError()
+2024-12-19 10:33:33,790 - ERROR - EOFError
+2024-12-19 10:33:33,791 - ERROR - 
+2024-12-19 10:33:33,791 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:33:33,791 - ERROR - 
+2024-12-19 10:33:33,791 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:33,791 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:33:33,791 - ERROR -     self._check_banner()
+2024-12-19 10:33:33,791 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:33:33,791 - ERROR -     raise SSHException(
+2024-12-19 10:33:33,791 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:33:33,791 - ERROR - 
+2024-12-19 10:33:33,791 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:33:41,142 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:33:41,367 - INFO - Authentication (password) successful!
+2024-12-19 10:33:43,361 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:33:43,362 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:43,362 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:33:43,362 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:33:43,362 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:43,362 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:33:43,362 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:33:43,362 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:43,362 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:33:43,362 - ERROR -     raise EOFError()
+2024-12-19 10:33:43,362 - ERROR - EOFError
+2024-12-19 10:33:43,362 - ERROR - 
+2024-12-19 10:33:43,362 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:33:43,362 - ERROR - 
+2024-12-19 10:33:43,362 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:43,362 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:33:43,363 - ERROR -     self._check_banner()
+2024-12-19 10:33:43,363 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:33:43,363 - ERROR -     raise SSHException(
+2024-12-19 10:33:43,363 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:33:43,363 - ERROR - 
+2024-12-19 10:33:43,363 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:33:50,978 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:33:51,204 - INFO - Authentication (password) successful!
+2024-12-19 10:33:53,172 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:33:53,173 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:53,173 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:33:53,173 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:33:53,173 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:53,173 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:33:53,174 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:33:53,174 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:33:53,174 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:33:53,174 - ERROR -     raise EOFError()
+2024-12-19 10:33:53,174 - ERROR - EOFError
+2024-12-19 10:33:53,174 - ERROR - 
+2024-12-19 10:33:53,174 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:33:53,174 - ERROR - 
+2024-12-19 10:33:53,174 - ERROR - Traceback (most recent call last):
+2024-12-19 10:33:53,174 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:33:53,174 - ERROR -     self._check_banner()
+2024-12-19 10:33:53,174 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:33:53,174 - ERROR -     raise SSHException(
+2024-12-19 10:33:53,174 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:33:53,174 - ERROR - 
+2024-12-19 10:33:53,174 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:34:00,962 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:34:01,198 - INFO - Authentication (password) successful!
+2024-12-19 10:34:03,228 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:34:03,229 - ERROR - Traceback (most recent call last):
+2024-12-19 10:34:03,229 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:34:03,229 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:34:03,229 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:34:03,229 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:34:03,229 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:34:03,229 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:34:03,229 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:34:03,229 - ERROR -     raise EOFError()
+2024-12-19 10:34:03,229 - ERROR - EOFError
+2024-12-19 10:34:03,229 - ERROR - 
+2024-12-19 10:34:03,229 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:34:03,229 - ERROR - 
+2024-12-19 10:34:03,229 - ERROR - Traceback (most recent call last):
+2024-12-19 10:34:03,229 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:34:03,229 - ERROR -     self._check_banner()
+2024-12-19 10:34:03,229 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:34:03,229 - ERROR -     raise SSHException(
+2024-12-19 10:34:03,229 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:34:03,230 - ERROR - 
+2024-12-19 10:34:03,230 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:34:11,017 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:34:11,253 - INFO - Authentication (password) successful!
+2024-12-19 10:34:13,310 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:34:13,311 - ERROR - Traceback (most recent call last):
+2024-12-19 10:34:13,311 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:34:13,311 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:34:13,311 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:34:13,311 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:34:13,311 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:34:13,311 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:34:13,311 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:34:13,311 - ERROR -     raise EOFError()
+2024-12-19 10:34:13,311 - ERROR - EOFError
+2024-12-19 10:34:13,311 - ERROR - 
+2024-12-19 10:34:13,311 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:34:13,311 - ERROR - 
+2024-12-19 10:34:13,311 - ERROR - Traceback (most recent call last):
+2024-12-19 10:34:13,311 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:34:13,311 - ERROR -     self._check_banner()
+2024-12-19 10:34:13,311 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:34:13,311 - ERROR -     raise SSHException(
+2024-12-19 10:34:13,311 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:34:13,311 - ERROR - 
+2024-12-19 10:34:13,312 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:34:16,298 - INFO - Added job "perform_backup" to job store "default"
+2024-12-19 10:34:16,347 - INFO - Cliente 8: Agendado backup para VM 189.113.9.6, banco de dados postgre, frequência weekly às 11:00.
+2024-12-19 10:34:16,347 - INFO - Cliente 8: Backup agendado com sucesso.
+2024-12-19 10:34:16,900 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:34:18,846 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:34:55,513 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:34:55,576 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:34:55,799 - INFO - Authentication (password) successful!
+2024-12-19 10:34:58,244 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:34:58,244 - ERROR - Traceback (most recent call last):
+2024-12-19 10:34:58,244 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:34:58,244 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:34:58,244 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:34:58,244 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:34:58,244 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:34:58,244 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:34:58,244 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:34:58,244 - ERROR -     raise EOFError()
+2024-12-19 10:34:58,245 - ERROR - EOFError
+2024-12-19 10:34:58,245 - ERROR - 
+2024-12-19 10:34:58,245 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:34:58,245 - ERROR - 
+2024-12-19 10:34:58,245 - ERROR - Traceback (most recent call last):
+2024-12-19 10:34:58,245 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:34:58,245 - ERROR -     self._check_banner()
+2024-12-19 10:34:58,245 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:34:58,245 - ERROR -     raise SSHException(
+2024-12-19 10:34:58,245 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:34:58,245 - ERROR - 
+2024-12-19 10:34:58,245 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:35:05,599 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:35:05,823 - INFO - Authentication (password) successful!
+2024-12-19 10:35:07,787 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:35:07,788 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:07,788 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:35:07,788 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:35:07,788 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:07,788 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:35:07,788 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:35:07,788 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:07,788 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:35:07,788 - ERROR -     raise EOFError()
+2024-12-19 10:35:07,788 - ERROR - EOFError
+2024-12-19 10:35:07,788 - ERROR - 
+2024-12-19 10:35:07,788 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:35:07,788 - ERROR - 
+2024-12-19 10:35:07,788 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:07,788 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:35:07,788 - ERROR -     self._check_banner()
+2024-12-19 10:35:07,788 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:35:07,788 - ERROR -     raise SSHException(
+2024-12-19 10:35:07,788 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:35:07,788 - ERROR - 
+2024-12-19 10:35:07,788 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:35:15,584 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:35:15,810 - INFO - Authentication (password) successful!
+2024-12-19 10:35:17,803 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:35:17,804 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:17,804 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:35:17,804 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:35:17,804 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:17,804 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:35:17,804 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:35:17,804 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:17,804 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:35:17,804 - ERROR -     raise EOFError()
+2024-12-19 10:35:17,804 - ERROR - EOFError
+2024-12-19 10:35:17,804 - ERROR - 
+2024-12-19 10:35:17,804 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:35:17,804 - ERROR - 
+2024-12-19 10:35:17,804 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:17,804 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:35:17,804 - ERROR -     self._check_banner()
+2024-12-19 10:35:17,804 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:35:17,804 - ERROR -     raise SSHException(
+2024-12-19 10:35:17,804 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:35:17,804 - ERROR - 
+2024-12-19 10:35:17,804 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:35:25,589 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:35:25,813 - INFO - Authentication (password) successful!
+2024-12-19 10:35:27,804 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:35:27,805 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:27,805 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:35:27,805 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:35:27,805 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:27,805 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:35:27,805 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:35:27,805 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:27,805 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:35:27,805 - ERROR -     raise EOFError()
+2024-12-19 10:35:27,805 - ERROR - EOFError
+2024-12-19 10:35:27,805 - ERROR - 
+2024-12-19 10:35:27,805 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:35:27,805 - ERROR - 
+2024-12-19 10:35:27,805 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:27,805 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:35:27,805 - ERROR -     self._check_banner()
+2024-12-19 10:35:27,805 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:35:27,805 - ERROR -     raise SSHException(
+2024-12-19 10:35:27,805 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:35:27,805 - ERROR - 
+2024-12-19 10:35:27,805 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:35:35,595 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:35:35,815 - INFO - Authentication (password) successful!
+2024-12-19 10:35:37,791 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:35:37,792 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:37,792 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:35:37,792 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:35:37,792 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:37,792 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:35:37,792 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:35:37,792 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:37,792 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:35:37,792 - ERROR -     raise EOFError()
+2024-12-19 10:35:37,792 - ERROR - EOFError
+2024-12-19 10:35:37,792 - ERROR - 
+2024-12-19 10:35:37,792 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:35:37,792 - ERROR - 
+2024-12-19 10:35:37,792 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:37,793 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:35:37,793 - ERROR -     self._check_banner()
+2024-12-19 10:35:37,793 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:35:37,793 - ERROR -     raise SSHException(
+2024-12-19 10:35:37,793 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:35:37,793 - ERROR - 
+2024-12-19 10:35:37,793 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:35:45,611 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:35:45,847 - INFO - Authentication (password) successful!
+2024-12-19 10:35:47,892 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:35:47,892 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:47,892 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:35:47,893 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:35:47,893 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:47,893 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:35:47,893 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:35:47,893 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:47,893 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:35:47,893 - ERROR -     raise EOFError()
+2024-12-19 10:35:47,893 - ERROR - EOFError
+2024-12-19 10:35:47,893 - ERROR - 
+2024-12-19 10:35:47,893 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:35:47,893 - ERROR - 
+2024-12-19 10:35:47,893 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:47,893 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:35:47,893 - ERROR -     self._check_banner()
+2024-12-19 10:35:47,893 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:35:47,893 - ERROR -     raise SSHException(
+2024-12-19 10:35:47,893 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:35:47,893 - ERROR - 
+2024-12-19 10:35:47,893 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:35:56,137 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:35:56,360 - INFO - Authentication (password) successful!
+2024-12-19 10:35:58,755 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:35:58,755 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:58,755 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:35:58,755 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:35:58,755 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:58,755 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:35:58,755 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:35:58,755 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:35:58,756 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:35:58,756 - ERROR -     raise EOFError()
+2024-12-19 10:35:58,756 - ERROR - EOFError
+2024-12-19 10:35:58,756 - ERROR - 
+2024-12-19 10:35:58,756 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:35:58,756 - ERROR - 
+2024-12-19 10:35:58,756 - ERROR - Traceback (most recent call last):
+2024-12-19 10:35:58,756 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:35:58,756 - ERROR -     self._check_banner()
+2024-12-19 10:35:58,756 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:35:58,756 - ERROR -     raise SSHException(
+2024-12-19 10:35:58,756 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:35:58,756 - ERROR - 
+2024-12-19 10:35:58,756 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:36:06,151 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:36:06,337 - INFO - Authentication (password) successful!
+2024-12-19 10:36:08,323 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:36:08,324 - ERROR - Traceback (most recent call last):
+2024-12-19 10:36:08,324 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:36:08,324 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:36:08,324 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:36:08,324 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:36:08,324 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:36:08,324 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:36:08,324 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:36:08,324 - ERROR -     raise EOFError()
+2024-12-19 10:36:08,324 - ERROR - EOFError
+2024-12-19 10:36:08,324 - ERROR - 
+2024-12-19 10:36:08,324 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:36:08,324 - ERROR - 
+2024-12-19 10:36:08,324 - ERROR - Traceback (most recent call last):
+2024-12-19 10:36:08,324 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:36:08,324 - ERROR -     self._check_banner()
+2024-12-19 10:36:08,324 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:36:08,324 - ERROR -     raise SSHException(
+2024-12-19 10:36:08,324 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:36:08,324 - ERROR - 
+2024-12-19 10:36:08,324 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:36:15,775 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:36:16,006 - INFO - Authentication (password) successful!
+2024-12-19 10:36:16,846 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:36:18,010 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:36:18,011 - ERROR - Traceback (most recent call last):
+2024-12-19 10:36:18,011 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:36:18,011 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:36:18,011 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:36:18,011 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:36:18,011 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:36:18,011 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:36:18,011 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:36:18,012 - ERROR -     raise EOFError()
+2024-12-19 10:36:18,012 - ERROR - EOFError
+2024-12-19 10:36:18,012 - ERROR - 
+2024-12-19 10:36:18,012 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:36:18,012 - ERROR - 
+2024-12-19 10:36:18,012 - ERROR - Traceback (most recent call last):
+2024-12-19 10:36:18,012 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:36:18,012 - ERROR -     self._check_banner()
+2024-12-19 10:36:18,012 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:36:18,012 - ERROR -     raise SSHException(
+2024-12-19 10:36:18,012 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:36:18,012 - ERROR - 
+2024-12-19 10:36:18,012 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:36:58,303 - INFO - Cliente 8: Listagem de backups realizada.
+2024-12-19 10:36:58,337 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:36:58,561 - INFO - Authentication (password) successful!
+2024-12-19 10:37:01,031 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:37:01,032 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:01,032 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:37:01,032 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:37:01,032 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:01,032 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:37:01,032 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:37:01,032 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:01,032 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:37:01,032 - ERROR -     raise EOFError()
+2024-12-19 10:37:01,032 - ERROR - EOFError
+2024-12-19 10:37:01,032 - ERROR - 
+2024-12-19 10:37:01,032 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:37:01,032 - ERROR - 
+2024-12-19 10:37:01,032 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:01,032 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:37:01,032 - ERROR -     self._check_banner()
+2024-12-19 10:37:01,032 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:37:01,032 - ERROR -     raise SSHException(
+2024-12-19 10:37:01,032 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:37:01,032 - ERROR - 
+2024-12-19 10:37:01,032 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:37:08,332 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:37:08,516 - INFO - Authentication (password) successful!
+2024-12-19 10:37:10,497 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:37:10,497 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:10,497 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:37:10,498 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:37:10,498 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:10,498 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:37:10,498 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:37:10,498 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:10,498 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:37:10,498 - ERROR -     raise EOFError()
+2024-12-19 10:37:10,498 - ERROR - EOFError
+2024-12-19 10:37:10,498 - ERROR - 
+2024-12-19 10:37:10,498 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:37:10,498 - ERROR - 
+2024-12-19 10:37:10,498 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:10,498 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:37:10,498 - ERROR -     self._check_banner()
+2024-12-19 10:37:10,498 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:37:10,498 - ERROR -     raise SSHException(
+2024-12-19 10:37:10,498 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:37:10,498 - ERROR - 
+2024-12-19 10:37:10,498 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:37:18,365 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:37:18,589 - INFO - Authentication (password) successful!
+2024-12-19 10:37:20,588 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:37:20,588 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:20,589 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:37:20,589 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:37:20,589 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:20,589 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:37:20,589 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:37:20,589 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:20,589 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:37:20,589 - ERROR -     raise EOFError()
+2024-12-19 10:37:20,589 - ERROR - EOFError
+2024-12-19 10:37:20,589 - ERROR - 
+2024-12-19 10:37:20,589 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:37:20,589 - ERROR - 
+2024-12-19 10:37:20,589 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:20,589 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:37:20,589 - ERROR -     self._check_banner()
+2024-12-19 10:37:20,589 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:37:20,589 - ERROR -     raise SSHException(
+2024-12-19 10:37:20,589 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:37:20,589 - ERROR - 
+2024-12-19 10:37:20,589 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:37:28,336 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:37:28,557 - INFO - Authentication (password) successful!
+2024-12-19 10:37:30,509 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:37:30,510 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:30,510 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:37:30,510 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:37:30,510 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:30,510 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:37:30,510 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:37:30,510 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:30,510 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:37:30,510 - ERROR -     raise EOFError()
+2024-12-19 10:37:30,510 - ERROR - EOFError
+2024-12-19 10:37:30,510 - ERROR - 
+2024-12-19 10:37:30,510 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:37:30,510 - ERROR - 
+2024-12-19 10:37:30,510 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:30,510 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:37:30,510 - ERROR -     self._check_banner()
+2024-12-19 10:37:30,510 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:37:30,510 - ERROR -     raise SSHException(
+2024-12-19 10:37:30,510 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:37:30,510 - ERROR - 
+2024-12-19 10:37:30,511 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:37:38,356 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:37:38,583 - INFO - Authentication (password) successful!
+2024-12-19 10:37:40,598 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:37:40,599 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:40,599 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:37:40,599 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:37:40,599 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:40,599 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:37:40,599 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:37:40,599 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:40,599 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:37:40,599 - ERROR -     raise EOFError()
+2024-12-19 10:37:40,599 - ERROR - EOFError
+2024-12-19 10:37:40,599 - ERROR - 
+2024-12-19 10:37:40,599 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:37:40,600 - ERROR - 
+2024-12-19 10:37:40,600 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:40,600 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:37:40,600 - ERROR -     self._check_banner()
+2024-12-19 10:37:40,600 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:37:40,600 - ERROR -     raise SSHException(
+2024-12-19 10:37:40,600 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:37:40,600 - ERROR - 
+2024-12-19 10:37:40,600 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:37:48,367 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:37:48,605 - INFO - Authentication (password) successful!
+2024-12-19 10:37:50,689 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:37:50,690 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:50,690 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:37:50,690 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:37:50,690 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:50,690 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:37:50,691 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:37:50,691 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:37:50,691 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:37:50,691 - ERROR -     raise EOFError()
+2024-12-19 10:37:50,691 - ERROR - EOFError
+2024-12-19 10:37:50,691 - ERROR - 
+2024-12-19 10:37:50,691 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:37:50,691 - ERROR - 
+2024-12-19 10:37:50,691 - ERROR - Traceback (most recent call last):
+2024-12-19 10:37:50,691 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:37:50,691 - ERROR -     self._check_banner()
+2024-12-19 10:37:50,691 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:37:50,691 - ERROR -     raise SSHException(
+2024-12-19 10:37:50,691 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:37:50,691 - ERROR - 
+2024-12-19 10:37:50,691 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:37:58,367 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:37:58,592 - INFO - Authentication (password) successful!
+2024-12-19 10:38:00,594 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:38:00,594 - ERROR - Traceback (most recent call last):
+2024-12-19 10:38:00,594 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:38:00,594 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:38:00,594 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:38:00,595 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:38:00,595 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:38:00,595 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:38:00,595 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:38:00,595 - ERROR -     raise EOFError()
+2024-12-19 10:38:00,595 - ERROR - EOFError
+2024-12-19 10:38:00,595 - ERROR - 
+2024-12-19 10:38:00,595 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:38:00,595 - ERROR - 
+2024-12-19 10:38:00,595 - ERROR - Traceback (most recent call last):
+2024-12-19 10:38:00,595 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:38:00,595 - ERROR -     self._check_banner()
+2024-12-19 10:38:00,595 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:38:00,595 - ERROR -     raise SSHException(
+2024-12-19 10:38:00,595 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:38:00,595 - ERROR - 
+2024-12-19 10:38:00,595 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner
+2024-12-19 10:38:08,358 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-19 10:38:08,584 - INFO - Authentication (password) successful!
+2024-12-19 10:38:11,077 - ERROR - Exception (client): Error reading SSH protocol banner
+2024-12-19 10:38:11,077 - ERROR - Traceback (most recent call last):
+2024-12-19 10:38:11,077 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+2024-12-19 10:38:11,077 - ERROR -     buf = self.packetizer.readline(timeout)
+2024-12-19 10:38:11,077 - ERROR -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:38:11,078 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 395, in readline
+2024-12-19 10:38:11,078 - ERROR -     buf += self._read_timeout(timeout)
+2024-12-19 10:38:11,078 - ERROR -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-19 10:38:11,078 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 665, in _read_timeout
+2024-12-19 10:38:11,078 - ERROR -     raise EOFError()
+2024-12-19 10:38:11,078 - ERROR - EOFError
+2024-12-19 10:38:11,078 - ERROR - 
+2024-12-19 10:38:11,078 - ERROR - During handling of the above exception, another exception occurred:
+2024-12-19 10:38:11,078 - ERROR - 
+2024-12-19 10:38:11,078 - ERROR - Traceback (most recent call last):
+2024-12-19 10:38:11,078 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2185, in run
+2024-12-19 10:38:11,078 - ERROR -     self._check_banner()
+2024-12-19 10:38:11,078 - ERROR -   File "C:\Users\Pedro Lucas\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+2024-12-19 10:38:11,078 - ERROR -     raise SSHException(
+2024-12-19 10:38:11,078 - ERROR - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2024-12-19 10:38:11,078 - ERROR - 
+2024-12-19 10:38:11,078 - ERROR - Erro ao obter bancos de dados da VM 20: Error reading SSH protocol banner

@@ -3,6 +3,7 @@
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
+import uvicorn
 import os
 import datetime
 import time
@@ -33,6 +34,7 @@ DB_PORT = os.getenv("DB_PORT", 5432)  # Porta padrão 5432 se não definida
 DB_DATABASE = os.getenv("DB_DATABASE")
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
+PORT = int(os.getenv("PORT"))
 
 # Importações do módulo scheduler
 from scheduler import (
