@@ -842,19 +842,5 @@ def dump_all_databases(request: DumpAllRequest, client_id: int = Depends(authent
 # Montar arquivos estáticos (se necessário)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-# Evento de Startup para iniciar o scheduler
-@app.on_event("startup")
-def start_scheduler():
-    if not scheduler.running:
-        scheduler.start()
-        logger.info("Scheduler iniciado no evento de startup.")
-
-config = uvicorn.Config("main:app", host="localhost", port=8081)
-server = uvicorn.Server(config)
-
-# Se o loop de eventos já estiver em execução, criamos a tarefa diretamente
-if asyncio.get_event_loop().is_running():
-    asyncio.ensure_future(server.serve())
-else:
-    # Caso contrário, usamos asyncio.run para iniciar o servidor
-    asyncio.run(server.serve())
+if __name__ == '__main__':
+    uvicorn.run("main:app", host="localhost", port=PORT, reload=True)
