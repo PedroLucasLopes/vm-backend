@@ -36,6 +36,7 @@ DB_DATABASE = os.getenv("DB_DATABASE")
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 PORT = int(os.getenv("PORT"))
+API_URL = os.getenv("API_URL")
 
 # Importações do módulo scheduler
 from scheduler import (
