@@ -1,3 +1,5 @@
+# main.py
+
 from fastapi import FastAPI, Depends, HTTPException, status, WebSocket, WebSocketDisconnect
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
@@ -5,7 +7,6 @@ import os
 import datetime
 import time
 from pydantic import BaseModel
-import uvicorn
 import paramiko
 import psycopg2
 import bcrypt
@@ -20,6 +21,7 @@ import re
 import socket
 import psycopg2
 
+
 vm_metrics_cache = {}
 vm_metrics_lock = threading.Lock()
 
@@ -32,8 +34,6 @@ DB_PORT = os.getenv("DB_PORT", 5432)  # Porta padrão 5432 se não definida
 DB_DATABASE = os.getenv("DB_DATABASE")
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
-PORT = int(os.getenv("PORT"))
-API_URL = os.getenv("API_URL")
 
 # Importações do módulo scheduler
 from scheduler import (
@@ -44,7 +44,7 @@ from scheduler import (
 
 app = FastAPI()
 
-origins = ["*"]
+origins = ["http://localhost:3000/", "http://example.com/"]
 
 app.add_middleware(
     CORSMiddleware,
@@ -60,7 +60,7 @@ security = HTTPBasic()
 
 # Configuração de logging
 logging.basicConfig(
-    filename='backup_scheduler.log',
+    filename='log_vm/backup_scheduler.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -76,9 +76,9 @@ def get_db_connection():
         password=DB_PASSWORD
     )
 
-# @app.websocket("/ws")
-# async def websocket_endpoint(websocket: WebSocket):
-#     await handle_websocket(websocket)
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await handle_websocket(websocket)
 
 # Função de autenticação baseada em clientes com bcrypt
 def authenticate(credentials: HTTPBasicCredentials = Depends(security)):
@@ -317,12 +317,13 @@ def check_vm_status(vms, client_id: int):
                 free_disk_space = "Unknown"
 
             cpu_command = (
-                "LANG=C top -bn2 -d0.5 | grep 'Cpu(s)' | tail -n1 | "
-                "sed 's/.*, *\\([0-9.]*\\)%* id.*/\\1/' | awk '{print 100 - $1}'"
+                "LANG=C top -bn2 -d0.5 | grep -E '^%Cpu' | tail -n1 | "
+                "sed -E 's/.* ([0-9.]+) id.*/\\1/' | awk '{print 100 - $1}'"
             )
 
             stdin, stdout, stderr = ssh.exec_command(cpu_command)
             stdout.channel.recv_exit_status()
+
             cpu_usage_output = stdout.read().decode().strip()
             error_output = stderr.read().decode().strip()
 
@@ -344,18 +345,18 @@ def check_vm_status(vms, client_id: int):
                 logger.error("CPU usage output is empty")
 
 
-            # Uso de memória em MB
-            mem_command = "free -m | awk '/Mem:/ {print $2, $3}'"
+            mem_command = "free -m | awk '/Mem:/ {print $2, $2 - $7}'"
             stdin, stdout, stderr = ssh.exec_command(mem_command)
             stdout.channel.recv_exit_status()
+
             mem_output = stdout.read().decode().strip()
             if mem_output:
-                total_mem_str, used_mem_str = mem_output.split()
-                total_mem = int(total_mem_str)  # Em MB
-                used_mem = int(used_mem_str)    # Em MB
+                total_str, used_str = mem_output.split()
+                total_mem = int(total_str)  # Em MB
+                used_mem  = int(used_str)   # Em MB
             else:
                 total_mem = None
-                used_mem = None
+                used_mem  = None
 
             # Uptime
             stdin, stdout, stderr = ssh.exec_command("uptime -p")
@@ -593,7 +594,7 @@ def remove_backup(job_id: str, client_id: int):
         connection.close()
 
 # Endpoint para Backup imediato
-@app.post("/api/backup")
+@app.post("/backup")
 def backup_database(request: BackupRequest, client_id: int = Depends(authenticate)):
     # Gerar um job_id único para este backup imediato
     job_id = f"backup_{client_id}_{request.database}_once_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -601,7 +602,7 @@ def backup_database(request: BackupRequest, client_id: int = Depends(authenticat
     logger.info(f"Cliente {client_id}: Backup imediato iniciado para VM {request.ip}, banco de dados {request.database}.")
     return {"message": "Backup imediato iniciado."}
 
-@app.post("/api/schedule_backup")
+@app.post("/schedule_backup")
 def schedule_backup_route(request: ScheduleBackupRequest, client_id: int = Depends(authenticate)):
     result = schedule_backup(request, get_vm_by_ip, client_id)
     if "Error" in result:
@@ -612,14 +613,14 @@ def schedule_backup_route(request: ScheduleBackupRequest, client_id: int = Depen
         return result
 
 # Endpoint para Listar Backups
-@app.get("/api/list_backups")
+@app.get("/list_backups")
 def list_backups_route(client_id: int = Depends(authenticate)):
     backups = list_backups(client_id)
     logger.info(f"Cliente {client_id}: Listagem de backups realizada.")
     return backups
 
 # Endpoint para Remover Backup
-@app.delete("/api/remove_backup/{job_id}")
+@app.delete("/remove_backup/{job_id}")
 def remove_backup_route(job_id: str, client_id: int = Depends(authenticate)):
     result = remove_backup(job_id, client_id)
     if "Error" in result:
@@ -629,7 +630,7 @@ def remove_backup_route(job_id: str, client_id: int = Depends(authenticate)):
     return result
 
 # Endpoint para Controlar PostgreSQL
-@app.post("/api/control")
+@app.post("/control")
 def control_postgresql(request: ControlRequest, client_id: int = Depends(authenticate)):
     vm = get_vm_by_ip(request.ip)
     if not vm:
@@ -666,7 +667,7 @@ def find_free_port():
         return s.getsockname()[1]
 
 # Endpoint para Monitoramento
-@app.get("/api/monitor")
+@app.get("/monitor")
 async def monitor(client_id: int = Depends(authenticate)):
     vms = get_vms(client_id)
     status = check_vm_status(vms, client_id)
@@ -675,7 +676,7 @@ async def monitor(client_id: int = Depends(authenticate)):
     logger.info(f"Cliente {client_id}: Monitoramento realizado.")
     return status
 
-@app.get("/api/monitor/{vm_id}")
+@app.get("/monitor/{vm_id}")
 def monitor_vm_by_id(vm_id: int, client_id: int = Depends(authenticate)):
     # Obter a VM pelo ID
     connection = get_db_connection()
@@ -766,7 +767,7 @@ def monitor_vm_by_id(vm_id: int, client_id: int = Depends(authenticate)):
         cursor.close()
         connection.close()
 
-@app.post("/api/dumpall")
+@app.post("/dumpall")
 def dump_all_databases(request: DumpAllRequest, client_id: int = Depends(authenticate)):
     vm = get_vm_by_ip(request.ip)
     if not vm:
@@ -837,8 +838,11 @@ def dump_all_databases(request: DumpAllRequest, client_id: int = Depends(authent
         logger.exception(f"Cliente {client_id}: Erro ao realizar dumpall na VM {ip}: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
-# Montar arquivos estáticos (se necessário)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-if __name__ == '__main__':
-    uvicorn.run("main:app", host="localhost", port=PORT, reload=True)
+# Evento de Startup para iniciar o scheduler
+@app.on_event("startup")
+def start_scheduler():
+    if not scheduler.running:
+        scheduler.start()
+        logger.info("Scheduler iniciado no evento de startup.")
