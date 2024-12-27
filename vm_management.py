@@ -40,7 +40,7 @@ class VMResponse(BaseModel):
     user_pg: Optional[str]
     port: Optional[str]
 
-@router.post("/vms", response_model=VMResponse, summary="Cadastrar nova VM", tags=["VM Management"])
+@router.post("/api/vms", response_model=VMResponse, summary="Cadastrar nova VM", tags=["VM Management"])
 def create_vm(request: VMCreateRequest, client_id: int = Depends(authenticate)):
     connection = get_db_connection()
     cursor = connection.cursor()
@@ -132,7 +132,7 @@ def create_vm(request: VMCreateRequest, client_id: int = Depends(authenticate)):
         connection.close()
 
 
-@router.get("/vms", summary="Listar VMs", tags=["VM Management"])
+@router.get("/api/vms", summary="Listar VMs", tags=["VM Management"])
 def list_vms(
     page: int = Query(1, ge=1, description="Número da página"),
     page_size: int = Query(10, ge=1, description="Quantidade de VMs por página"),
@@ -193,7 +193,7 @@ def list_vms(
         connection.close()
 
 # Endpoint para deletar uma VM
-@router.delete("/vms/{vm_id}", summary="Deletar VM", tags=["VM Management"])
+@router.delete("/api/vms/{vm_id}", summary="Deletar VM", tags=["VM Management"])
 def delete_vm(vm_id: int, client_id: int = Depends(authenticate)):
     connection = get_db_connection()
     cursor = connection.cursor()

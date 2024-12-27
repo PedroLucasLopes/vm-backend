@@ -48332,3 +48332,10 @@ AssertionError
 2024-12-27 11:11:34,924 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
 2024-12-27 11:11:35,124 - INFO - Authentication (password) successful!
 2024-12-27 11:11:38,508 - INFO - Cliente 8: Monitoramento realizado.
+2024-12-27 11:25:58,898 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-27 11:25:59,073 - INFO - Authentication (password) successful!
+2024-12-27 11:26:01,438 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-27 11:26:01,587 - INFO - Authentication (password) successful!
+2024-12-27 11:26:04,174 - INFO - Cliente 8: Monitoramento realizado.
+2024-12-27 11:26:10,527 - INFO - Cliente 8: Listagem de VMs realizada.
+2024-12-27 11:26:22,999 - INFO - 1 change detected

@@ -593,7 +593,7 @@ def remove_backup(job_id: str, client_id: int):
         connection.close()
 
 # Endpoint para Backup imediato
-@app.post("/backup")
+@app.post("/api/backup")
 def backup_database(request: BackupRequest, client_id: int = Depends(authenticate)):
     # Gerar um job_id único para este backup imediato
     job_id = f"backup_{client_id}_{request.database}_once_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -601,7 +601,7 @@ def backup_database(request: BackupRequest, client_id: int = Depends(authenticat
     logger.info(f"Cliente {client_id}: Backup imediato iniciado para VM {request.ip}, banco de dados {request.database}.")
     return {"message": "Backup imediato iniciado."}
 
-@app.post("/schedule_backup")
+@app.post("/api/schedule_backup")
 def schedule_backup_route(request: ScheduleBackupRequest, client_id: int = Depends(authenticate)):
     result = schedule_backup(request, get_vm_by_ip, client_id)
     if "Error" in result:
@@ -612,14 +612,14 @@ def schedule_backup_route(request: ScheduleBackupRequest, client_id: int = Depen
         return result
 
 # Endpoint para Listar Backups
-@app.get("/list_backups")
+@app.get("/api/list_backups")
 def list_backups_route(client_id: int = Depends(authenticate)):
     backups = list_backups(client_id)
     logger.info(f"Cliente {client_id}: Listagem de backups realizada.")
     return backups
 
 # Endpoint para Remover Backup
-@app.delete("/remove_backup/{job_id}")
+@app.delete("/api/remove_backup/{job_id}")
 def remove_backup_route(job_id: str, client_id: int = Depends(authenticate)):
     result = remove_backup(job_id, client_id)
     if "Error" in result:
@@ -629,7 +629,7 @@ def remove_backup_route(job_id: str, client_id: int = Depends(authenticate)):
     return result
 
 # Endpoint para Controlar PostgreSQL
-@app.post("/control")
+@app.post("/api/control")
 def control_postgresql(request: ControlRequest, client_id: int = Depends(authenticate)):
     vm = get_vm_by_ip(request.ip)
     if not vm:
@@ -666,7 +666,7 @@ def find_free_port():
         return s.getsockname()[1]
 
 # Endpoint para Monitoramento
-@app.get("/monitor")
+@app.get("/api/monitor")
 async def monitor(client_id: int = Depends(authenticate)):
     vms = get_vms(client_id)
     status = check_vm_status(vms, client_id)
@@ -675,7 +675,7 @@ async def monitor(client_id: int = Depends(authenticate)):
     logger.info(f"Cliente {client_id}: Monitoramento realizado.")
     return status
 
-@app.get("/monitor/{vm_id}")
+@app.get("/api/monitor/{vm_id}")
 def monitor_vm_by_id(vm_id: int, client_id: int = Depends(authenticate)):
     # Obter a VM pelo ID
     connection = get_db_connection()
@@ -766,7 +766,7 @@ def monitor_vm_by_id(vm_id: int, client_id: int = Depends(authenticate)):
         cursor.close()
         connection.close()
 
-@app.post("/dumpall")
+@app.post("/api/dumpall")
 def dump_all_databases(request: DumpAllRequest, client_id: int = Depends(authenticate)):
     vm = get_vm_by_ip(request.ip)
     if not vm:
