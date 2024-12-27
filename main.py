@@ -1,10 +1,6 @@
-# main.py
-
-from fastapi import FastAPI, Depends, HTTPException, status
+from fastapi import FastAPI, Depends, HTTPException, status, WebSocket, WebSocketDisconnect
 from fastapi.staticfiles import StaticFiles
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
-import asyncio
-import uvicorn
 import os
 import datetime
 import time
@@ -14,6 +10,7 @@ import psycopg2
 import bcrypt
 import logging
 from vm_management import router as vm_management_router  # Importar o roteador
+from websocket_server import handle_websocket, notify_clients
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from collections import deque
@@ -21,7 +18,6 @@ import threading
 import re
 import socket
 import psycopg2
-
 
 vm_metrics_cache = {}
 vm_metrics_lock = threading.Lock()
