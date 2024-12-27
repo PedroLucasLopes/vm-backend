@@ -5,6 +5,7 @@ import os
 import datetime
 import time
 from pydantic import BaseModel
+import uvicorn
 import paramiko
 import psycopg2
 import bcrypt
