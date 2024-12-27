@@ -48339,3 +48339,13 @@ AssertionError
 2024-12-27 11:26:04,174 - INFO - Cliente 8: Monitoramento realizado.
 2024-12-27 11:26:10,527 - INFO - Cliente 8: Listagem de VMs realizada.
 2024-12-27 11:26:22,999 - INFO - 1 change detected
+2024-12-27 15:11:13,313 - INFO - Scheduler started
+2024-12-27 15:11:13,314 - INFO - Scheduler iniciado no evento de startup.
+2024-12-27 15:11:20,301 - INFO - Scheduler started
+2024-12-27 15:11:20,302 - INFO - Scheduler iniciado no evento de startup.
+2024-12-27 15:11:33,593 - INFO - Cliente 8: Listagem de VMs realizada.
+2024-12-27 15:11:38,307 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-27 15:11:38,471 - INFO - Authentication (password) successful!
+2024-12-27 15:11:40,631 - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-12-27 15:11:40,767 - INFO - Authentication (password) successful!
+2024-12-27 15:11:43,198 - INFO - Cliente 8: Monitoramento realizado.
