@@ -319,9 +319,12 @@ def check_vm_status(vms, client_id: int):
                 free_disk_space = "Unknown"
 
             cpu_command = (
-                "LANG=C top -bn2 -d0.5 | grep -E '^%Cpu' | tail -n1 | "
-                "sed -E 's/.* ([0-9.]+) id.*/\\1/' | awk '{print 100 - $1}'"
-            )
+                            "LANG=C top -bn2 -d0.5 "
+                            "| grep '^%Cpu(s)' "
+                            "| tail -n1 "
+                            "| sed -E 's/.* ([0-9.]+) id.*/\\1/' "
+                            "| awk '{print 100 - $1}'"
+                        )
 
             stdin, stdout, stderr = ssh.exec_command(cpu_command)
             stdout.channel.recv_exit_status()
