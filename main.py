@@ -21,7 +21,9 @@ import threading
 import re
 import socket
 import psycopg2
-
+from apscheduler.triggers.date import DateTrigger
+from apscheduler.triggers.cron import CronTrigger
+from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
 
 vm_metrics_cache = {}
 vm_metrics_lock = threading.Lock()
@@ -319,12 +321,12 @@ def check_vm_status(vms, client_id: int):
                 free_disk_space = "Unknown"
 
             cpu_command = (
-                            "LANG=C top -bn2 -d0.5 "
-                            "| grep '^%Cpu(s)' "
-                            "| tail -n1 "
-                            "| sed -E 's/.* ([0-9.]+) id.*/\\1/' "
-                            "| awk '{print 100 - $1}'"
-                        )
+                "LANG=C top -bn2 -d0.5 "
+                "| grep '^%Cpu(s)' "
+                "| tail -n1 "
+                "| sed -E 's/.* ([0-9.]+) id.*/\\1/' "
+                "| awk '{print 100 - $1}'"
+            )
 
             stdin, stdout, stderr = ssh.exec_command(cpu_command)
             stdout.channel.recv_exit_status()
@@ -456,8 +458,53 @@ class DumpAllRequest(BaseModel):
     ip: str
 
 # Funções de agendamento, listagem e remoção de backups
+def update_next_run_time_listener(event):
+    """
+    Listener chamado após cada execução de job.
+    Vamos atualizar o next_run_time no banco SE for um job recorrente (CronTrigger).
+    Jobs "imediatos" (DateTrigger) não serão atualizados (pois não há próxima execução).
+    """
+    job = scheduler.get_job(event.job_id)
+    if not job:
+        return  # não existe job => nada a fazer
+
+    # Se for CronTrigger, é recorrente (daily, weekly, monthly etc.)
+    # Se for DateTrigger, em geral é um job "once" (imediato).
+    if isinstance(job.trigger, DateTrigger):
+        # não atualiza next_run_time pois não há próxima execução
+        return
+
+    # Se chegou aqui, é um job recorrente. Atualiza next_run_time no banco
+    new_next_run = job.next_run_time  # Pode ser None se job for final
+    connection = get_db_connection()
+    cursor = connection.cursor()
+    try:
+        cursor.execute(
+            """
+            UPDATE client_backups
+            SET next_run_time = %s
+            WHERE job_id = %s
+            """,
+            (new_next_run, event.job_id)
+        )
+        connection.commit()
+        logger.info(f"Listener: next_run_time de {event.job_id} atualizado para {new_next_run}")
+    except Exception as e:
+        logger.error(f"Erro ao atualizar next_run_time do job {event.job_id}: {e}")
+    finally:
+        cursor.close()
+        connection.close()
+
+# Adicionar o listener ao scheduler
+scheduler.add_listener(update_next_run_time_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
+
+
 
 def schedule_backup(request: ScheduleBackupRequest, get_vm_by_ip, client_id: int):
+    """
+    Agendar um backup (daily, weekly, monthly ou once).
+    Insere no BD com status 'agendado' e next_run_time inicial.
+    """
     ip = request.ip
     database = request.database
     frequency = request.frequency.lower()
@@ -467,6 +514,7 @@ def schedule_backup(request: ScheduleBackupRequest, get_vm_by_ip, client_id: int
     connection = get_db_connection()
     cursor = connection.cursor()
     try:
+        # Verificar limites
         cursor.execute(
             "SELECT COUNT(*) FROM client_backups WHERE client_id = %s",
             (client_id,)
@@ -480,8 +528,12 @@ def schedule_backup(request: ScheduleBackupRequest, get_vm_by_ip, client_id: int
         max_backups = cursor.fetchone()[0]
 
         if current_backups >= max_backups:
-            return {"Error": f"Limite de backups atingido ({max_backups}). Não é possível agendar novos backups."}
+            return {
+                "Error": f"Limite de backups atingido ({max_backups}). "
+                         "Não é possível agendar novos backups."
+            }
 
+        # Definir trigger
         if frequency == 'once':
             run_date = datetime.datetime.now() + datetime.timedelta(minutes=1)
             trigger = 'date'
@@ -491,79 +543,124 @@ def schedule_backup(request: ScheduleBackupRequest, get_vm_by_ip, client_id: int
             trigger_args = {'hour': hour, 'minute': minute}
         elif frequency == 'weekly':
             if not request.day_of_week:
-                return {"Error": "Para backups semanais, o dia da semana deve ser especificado (e.g., 'mon', 'tue')."}
+                return {
+                    "Error": "Para backups semanais, day_of_week deve ser especificado (e.g., 'mon')."
+                }
             trigger = 'cron'
             trigger_args = {'day_of_week': request.day_of_week, 'hour': hour, 'minute': minute}
         elif frequency == 'monthly':
             if not request.day_of_month:
-                return {"Error": "Para backups mensais, o dia do mês deve ser especificado (e.g., 1, 15)."}
+                return {
+                    "Error": "Para backups mensais, day_of_month deve ser especificado (e.g., 1, 15)."
+                }
             trigger = 'cron'
             trigger_args = {'day': request.day_of_month, 'hour': hour, 'minute': minute}
         else:
-            return {"Error": "Frequência inválida. Deve ser 'once', 'daily', 'weekly' ou 'monthly'."}
+            return {
+                "Error": "Frequência inválida. Use 'once', 'daily', 'weekly' ou 'monthly'."
+            }
 
+        # Montar job_id
         job_id = f"backup_{client_id}_{database}_{frequency}_{hour}_{minute}"
         if frequency == 'monthly':
             job_id += f"_day_{request.day_of_month}"
         elif frequency == 'weekly':
             job_id += f"_day_{request.day_of_week}"
 
-        try:
-            job = scheduler.add_job(
-                perform_backup,
-                trigger=trigger,
-                args=[ip, database, client_id, job_id],  # Passar job_id aqui
-                id=job_id,
-                replace_existing=True,
-                **trigger_args
+        # Adicionar/atualizar job no scheduler
+        job = scheduler.add_job(
+            perform_backup,
+            trigger=trigger,
+            args=[ip, database, client_id, job_id],
+            id=job_id,
+            replace_existing=True,
+            **trigger_args
+        )
+
+        next_run_time = job.next_run_time
+
+        # Inserir no banco como 'agendado'
+        # Se estiver reaplicando no mesmo job_id, pode precisar de upsert ou delete+insert
+        cursor.execute(
+            """
+            INSERT INTO client_backups (client_id, job_id, vm_ip, database_name, status, next_run_time)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            ON CONFLICT (job_id, client_id)
+            DO UPDATE SET
+                vm_ip = EXCLUDED.vm_ip,
+                database_name = EXCLUDED.database_name,
+                status = EXCLUDED.status,
+                next_run_time = EXCLUDED.next_run_time
+            """,
+            (
+                client_id,
+                job.id,
+                ip,
+                database,
+                'agendado',
+                next_run_time
             )
+        )
+        connection.commit()
 
-            # Inserir no banco de dados com status 'agendado'
-            cursor.execute(
-                """
-                INSERT INTO client_backups (client_id, job_id, vm_ip, database_name, status)
-                VALUES (%s, %s, %s, %s, %s)
-                """,
-                (client_id, job.id, ip, database, 'agendado')
-            )
-            connection.commit()
+        logger.info(
+            f"Cliente {client_id}: Agendado backup para VM {ip}, DB={database}, "
+            f"freq={frequency}, hour={hour}, minute={minute}. next_run_time={next_run_time}"
+        )
 
-            logger.info(f"Cliente {client_id}: Agendado backup para VM {ip}, banco de dados {database}, frequência {frequency} às {hour:02d}:{minute:02d}.")
-
-            return {"message": "Backup agendado com sucesso.", "job_id": job.id}
-        except Exception as e:
-            logger.exception(f"Erro ao agendar backup: {str(e)}")
-            return {"Error": f"Erro ao agendar backup: {str(e)}"}
+        return {
+            "message": "Backup agendado com sucesso.",
+            "job_id": job.id,
+            "next_run_time": next_run_time.isoformat() if next_run_time else None
+        }
+    except Exception as e:
+        logger.exception(f"Erro ao agendar backup: {e}")
+        return {"Error": f"Erro ao agendar backup: {e}"}
     finally:
         cursor.close()
         connection.close()
 
+
 def list_backups(client_id: int):
+    """
+    Lista os backups do cliente, incluindo next_run_time.
+    """
     connection = get_db_connection()
     cursor = connection.cursor()
     try:
         cursor.execute(
             """
-            SELECT job_id, database_name, vm_ip, start_time, end_time, status
+            SELECT job_id, database_name, vm_ip, start_time, end_time, status, next_run_time
             FROM client_backups
             WHERE client_id = %s
             ORDER BY start_time DESC NULLS LAST
             """,
             (client_id,)
         )
-        backups = cursor.fetchall()
-        backup_list = []
-        for backup in backups:
-            backup_info = {
-                "job_id": backup[0],
-                "database_name": backup[1],
-                "vm_ip": backup[2],
-                "start_time": backup[3].isoformat() if backup[3] else None,
-                "end_time": backup[4].isoformat() if backup[4] else None,
-                "status": backup[5]
+        rows = cursor.fetchall()
+
+        result = []
+        for r in rows:
+            job_id = r[0]
+            database_name = r[1]
+            vm_ip = r[2]
+            start_time = r[3]
+            end_time = r[4]
+            status = r[5]
+            next_run = r[6]
+
+            info = {
+                "job_id": job_id,
+                "database_name": database_name,
+                "vm_ip": vm_ip,
+                "start_time": start_time.isoformat() if start_time else None,
+                "end_time": end_time.isoformat() if end_time else None,
+                "status": status,
+                "next_run_time": next_run.isoformat() if next_run else None
             }
-            backup_list.append(backup_info)
-        return {"scheduled_backups": backup_list}
+            result.append(info)
+
+        return {"scheduled_backups": result}
     except Exception as e:
         logger.error(f"Erro ao listar backups: {e}")
         return {"Error": f"Erro ao listar backups: {e}"}
@@ -571,10 +668,15 @@ def list_backups(client_id: int):
         cursor.close()
         connection.close()
 
+
 def remove_backup(job_id: str, client_id: int):
+    """
+    Remove um backup agendado (job) do APScheduler e do banco.
+    """
     connection = get_db_connection()
     cursor = connection.cursor()
     try:
+        # Verifica se pertence ao cliente
         cursor.execute(
             "SELECT id FROM client_backups WHERE job_id = %s AND client_id = %s",
             (job_id, client_id)
@@ -583,7 +685,10 @@ def remove_backup(job_id: str, client_id: int):
         if not record:
             return {"Error": "Agendamento não encontrado ou não pertence ao cliente."}
 
+        # Remove do APScheduler
         scheduler.remove_job(job_id)
+
+        # Remove do banco
         cursor.execute(
             "DELETE FROM client_backups WHERE job_id = %s AND client_id = %s",
             (job_id, client_id)
@@ -592,23 +697,34 @@ def remove_backup(job_id: str, client_id: int):
         logger.info(f"Cliente {client_id}: Agendamento de backup removido: {job_id}")
         return {"message": f"Agendamento {job_id} removido com sucesso."}
     except Exception as e:
-        logger.error(f"Erro ao remover agendamento {job_id}: {str(e)}")
-        return {"Error": f"Erro ao remover agendamento: {str(e)}"}
+        logger.error(f"Erro ao remover agendamento {job_id}: {e}")
+        return {"Error": f"Erro ao remover agendamento: {e}"}
     finally:
         cursor.close()
         connection.close()
+# Endpoint para Backup imediato (sem next_run_time, pois é execução única imediata)
 
-# Endpoint para Backup imediato
+
 @app.post("/api/backup")
 def backup_database(request: BackupRequest, client_id: int = Depends(authenticate)):
-    # Gerar um job_id único para este backup imediato
-    job_id = f"backup_{client_id}_{request.database}_once_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    """
+    Backup imediato (job único). Não terá 'next_run_time' pois é executado agora.
+    """
+    # Montar um job_id único para fins de log
+    job_id = f"backup_{client_id}_{request.database}_imediato_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
     perform_backup(request.ip, request.database, client_id, job_id)
-    logger.info(f"Cliente {client_id}: Backup imediato iniciado para VM {request.ip}, banco de dados {request.database}.")
+    logger.info(
+        f"Cliente {client_id}: Backup imediato iniciado (job {job_id}) "
+        f"para VM {request.ip}, banco {request.database}."
+    )
     return {"message": "Backup imediato iniciado."}
+
 
 @app.post("/api/schedule_backup")
 def schedule_backup_route(request: ScheduleBackupRequest, client_id: int = Depends(authenticate)):
+    """
+    Agendar backup (once, daily, weekly, monthly).
+    """
     result = schedule_backup(request, get_vm_by_ip, client_id)
     if "Error" in result:
         logger.error(f"Cliente {client_id}: {result['Error']}")
@@ -617,22 +733,29 @@ def schedule_backup_route(request: ScheduleBackupRequest, client_id: int = Depen
         logger.info(f"Cliente {client_id}: {result['message']}")
         return result
 
-# Endpoint para Listar Backups
+
 @app.get("/api/list_backups")
 def list_backups_route(client_id: int = Depends(authenticate)):
+    """
+    Lista todos os backups do cliente (em 'client_backups').
+    """
     backups = list_backups(client_id)
     logger.info(f"Cliente {client_id}: Listagem de backups realizada.")
     return backups
 
-# Endpoint para Remover Backup
+
 @app.delete("/api/remove_backup/{job_id}")
 def remove_backup_route(job_id: str, client_id: int = Depends(authenticate)):
+    """
+    Remove um backup agendado pelo job_id.
+    """
     result = remove_backup(job_id, client_id)
     if "Error" in result:
         logger.error(f"Cliente {client_id}: {result['Error']}")
+        raise HTTPException(status_code=400, detail=result['Error'])
     else:
         logger.info(f"Cliente {client_id}: {result['message']}")
-    return result
+        return result
 
 # Endpoint para Controlar PostgreSQL
 @app.post("/api/control")
@@ -842,6 +965,34 @@ def dump_all_databases(request: DumpAllRequest, client_id: int = Depends(authent
     except Exception as e:
         logger.exception(f"Cliente {client_id}: Erro ao realizar dumpall na VM {ip}: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/list_databases")
+def list_databases(client_id: int = Depends(authenticate)):
+    vms = get_vms(client_id)
+    databases_info = []
+
+    for vm in vms:
+        if vm["has_postgre"]:
+            try:
+                ssh = paramiko.SSHClient()
+                ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                ssh.connect(vm["ip"], username=vm["ssh_user"], password=vm["ssh_password"])
+
+                command = "sudo -H -u postgres psql -t -c \"SELECT datname FROM pg_database WHERE datistemplate = false;\""
+                stdin, stdout, stderr = ssh.exec_command(command)
+                db_list = [db.strip() for db in stdout.read().decode().split("\n") if db.strip()]
+
+                databases_info.append({
+                    "vm_name": vm["name"],
+                    "ip": vm["ip"],
+                    "databases": db_list
+                })
+
+                ssh.close()
+            except Exception as e:
+                logger.error(f"Erro ao listar bancos de dados para VM {vm['ip']}: {str(e)}")
+
+    return {"databases": databases_info}
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 

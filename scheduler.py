@@ -67,12 +67,12 @@ class ScheduleBackupRequest(BaseModel):
 
 def get_db_connection():
     return psycopg2.connect(
-            host=DB_HOST,
-            port=DB_PORT,  # Adicionando a porta
-            database=DB_DATABASE,
-            user=DB_USER,
-            password=DB_PASSWORD
-        )
+        host=DB_HOST,
+        port=DB_PORT,
+        database=DB_DATABASE,
+        user=DB_USER,
+        password=DB_PASSWORD
+    )
 
 def get_vm_access_data(ip: str, client_id: int):
     connection = get_db_connection()
@@ -301,18 +301,35 @@ def schedule_backup(request: ScheduleBackupRequest, client_id: int):
             **trigger_args
         )
 
-        # Inserir no banco de dados com status 'agendado'
+        # Obter o próximo horário de execução
+        next_run_time = job.next_run_time
+
+        # Inserir no banco de dados com status 'agendado' e o campo next_run_time
         cursor.execute(
             """
-            INSERT INTO client_backups (client_id, job_id, vm_ip, database_name, status)
-            VALUES (%s, %s, %s, %s, %s)
+            INSERT INTO client_backups (client_id, job_id, vm_ip, database_name, status, next_run_time)
+            VALUES (%s, %s, %s, %s, %s, %s)
             """,
-            (client_id, job.id, ip, database, 'agendado')
+            (
+                client_id,
+                job.id,
+                ip,
+                database,
+                'agendado',
+                next_run_time  # psycopg2 converte datetime automaticamente
+            )
         )
         connection.commit()
 
         logger.info(f"Backup agendado com sucesso para {ip}, banco {database}.")
-        return {"message": "Backup agendado com sucesso.", "job_id": job.id}
+
+        # Retornar no response a informação do próximo agendamento
+        return {
+            "message": "Backup agendado com sucesso.",
+            "job_id": job.id,
+            # Convertemos next_run_time para string (ISO) se não for None
+            "next_run_time": next_run_time.isoformat() if next_run_time else None
+        }
 
     except Exception as e:
         logger.exception(f"Erro ao agendar backup: {e}")
